@@ -104,9 +104,10 @@ class Station(object):
                     os.system('cp *.tree.err0_0 ran%s/%s'%(year,day))
                     os.system('cp *.tree.log0_0 ran%s/%s'%(year,day))
                     logging.debug('Saved tree and logs to file')
+		    dt = date[:-1]
             else:
                 logging.warning('File outside date range not processed')
-        os.system('netSeries.py -r %s.gdcov -i *.gdcov'%(date[:-1]))
+        os.system('netSeries.py -r %s.gdcov -i *.gdcov'%(dt))
 
 def splitline(line):
   index,sta,time,position,unc = line.split(' ')
