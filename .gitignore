@@ -99,3 +99,15 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+#GPS files
+.gdcov 
+.sum
+.err
+.err0_0
+.log0_0
+.tdp
+.out
+.cov
+Summary
+runAgain
