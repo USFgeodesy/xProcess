@@ -11,7 +11,7 @@ edit line 27:
 ionfile = '/home/nvoss/goa-var/cddis.gsfc.nasa.gov/gps/products/ionex'
 such that it points to the directory where your ionex files are...
 
-python setup.py install
+```python setup.py install```
 
 This will create 3 new python modules. 
   1. station
