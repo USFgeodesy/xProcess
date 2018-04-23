@@ -67,6 +67,7 @@ class Station(object):
         files = glob.glob(self.data)
         logging.info('Rinex Files to be processed:\n')
 	[logging.info(str(f)+'\n') for f in files]
+	dt=0
         for f in files:
             #figure out what day it is
             #? read the rinex file check if day is already in TS?
@@ -98,16 +99,18 @@ class Station(object):
                     else:
                         os.system('gd2e.py -runType=PPP -treeS Trees -rnxFile %s -nProcessors=4 -gdCov -GNSSproducts /home/nvoss/orbits/sideshow.jpl.nasa.gov/pub/JPL_GPS_Products/Final'%(f))
                     os.system('cp smoothFinal.gdcov %s.gdcov'%(date[:-1]))
-                    os.system('mkdir ran%s'%(year))
-                    os.system('mkdir ran%s/%s'%(year,day))
-                    os.system('cp runAgain ran%s/%s'%(year,day))
-                    os.system('cp *.tree.err0_0 ran%s/%s'%(year,day))
-                    os.system('cp *.tree.log0_0 ran%s/%s'%(year,day))
+                    os.system('mkdir %s_ran%s'%(self.name,year))
+                    os.system('mkdir %s_ran%s/%s'%(self.name,year,day))
+                    os.system('cp runAgain %s_ran%s/%s'%(self.name,year,day))
+                    os.system('cp *.tree.err0_0 %s_ran%s/%s'%(self.name,year,day))
+                    os.system('cp *.tree.log0_0 %s_ran%s/%s'%(self.name,year,day))
                     logging.debug('Saved tree and logs to file')
 		    dt = date[:-1]
+		    os.system('netSeries.py -r %s.gdcov -i *.gdcov'%(dt))
             else:
                 logging.warning('File outside date range not processed')
-        os.system('netSeries.py -r %s.gdcov -i *.gdcov'%(dt))
+        #if dt!=0:
+	#	os.system('netSeries.py -r %s.gdcov -i *.gdcov'%(dt))
 
 def splitline(line):
   index,sta,time,position,unc = line.split(' ')

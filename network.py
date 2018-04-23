@@ -41,7 +41,7 @@ class Network(object):
         for i,name in enumerate(df.name):
             stations.append(Station(name,df.Lat[i],df.Lon[i],df.Height[i],data = '/home/nvoss/rnx/CR/CGPS/CR2/CGPS/CGPS/%s/*/*'%(name)))
         self.stations = stations
-    def process(self):
+    def process(self,start=None,end=None):
         for station in self.stations:
             #make a directory to store processed station
             os.system('mkdir %s_pr'%(station.name))
@@ -50,6 +50,6 @@ class Network(object):
             #copy the tree overview
             os.system('cp -r ../Trees .')
             #process the station
-            station.process(tree='Trees')
+            station.process(tree='Trees',start_date=start,end_date=end)
             # go back a directory
             os.chdir('..')
