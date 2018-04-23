@@ -30,7 +30,7 @@ class Network(object):
 
 
 
-    def addStations(self,stationList):
+    def addStations(self,stationList,datadir):
         '''
         read a text file containtining:
         Station Lon Lat Height
@@ -39,7 +39,7 @@ class Network(object):
         df = pd.read_fwf(stationList,names=['name','Lon','Lat','Height'])
         stations = []
         for i,name in enumerate(df.name):
-            stations.append(Station(name,df.Lat[i],df.Lon[i],df.Height[i],data = '/home/nvoss/rnx/CR/CGPS/CR2/CGPS/CGPS/%s/*/*'%(name)))
+            stations.append(Station(name,df.Lat[i],df.Lon[i],df.Height[i],data = '%s/%s/*/*'%(datadir,name)))
         self.stations = stations
     def process(self,start=None,end=None):
         for station in self.stations:

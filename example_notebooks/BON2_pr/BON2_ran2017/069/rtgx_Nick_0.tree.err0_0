@@ -1,0 +1,184 @@
+E::1000035::rtgx started with command::rtgx Trees/Nick_0.tree
+E::1000035::rtgx started with command::rtgx Trees/Nick_0.tree
+E::1000035::rtgx started with command::rtgx Trees/Nick_0.tree
+E::1000035::rtgx started with command::rtgx Trees/Nick_0.tree
+A::1000059::Unexpected Error Thrown From Below Measurement Model::Error Caught::Requested epoch 542375982 is out of bounds of the Ionex map, which spans from 542376000.000000 to 542462400.000000
+libgregres/modelOneWay.cpp was processing::signal path:: {BON2(1)-GPS46(1)} at time 542376000 (2017-03-10 00:00:00.000000), data record:: 5.423760000000000E+08 (2017-03-10 00:00:00.000000) : {BON2(1)-GPS46(1)}
+  C1C: 21136890.0010  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C1P: 21136889.9400  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C2P: 21136895.7358  snr: nan  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  L1P: 21136872.3036  snr: 51.90  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  L2P: 21136866.5560  snr: 38.40  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  IonoFreeC_1P_2P: 21136880.9814  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  IonoFreeL_1P_2P: 21136881.1878  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+
+A::1000059::Unexpected Error Thrown From Below Measurement Model::Error Caught::Requested epoch 542375982 is out of bounds of the Ionex map, which spans from 542376000.000000 to 542462400.000000
+libgregres/modelOneWay.cpp was processing::signal path:: {BON2(1)-GPS46(1)} at time 542376000 (2017-03-10 00:00:00.000000), data record:: 5.423760000000000E+08 (2017-03-10 00:00:00.000000) : {BON2(1)-GPS46(1)}
+  C1C: 21136890.0010  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C1P: 21136889.9400  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C2P: 21136895.7358  snr: nan  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  L1P: 21136872.3036  snr: 51.90  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  L2P: 21136866.5560  snr: 38.40  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  IonoFreeC_1P_2P: 21136880.9814  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 0  BreakT: 5.423760000000000E+08
+  IonoFreeL_1P_2P: 21136881.1878  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+
+A::1000059::Unexpected Error Thrown From Below Measurement Model::Error Caught::Requested epoch 542375982 is out of bounds of the Ionex map, which spans from 542376000.000000 to 542462400.000000
+libgregres/modelOneWay.cpp was processing::signal path:: {BON2(1)-GPS47(1)} at time 542376000 (2017-03-10 00:00:00.000000), data record:: 5.423760000000000E+08 (2017-03-10 00:00:00.000000) : {BON2(1)-GPS47(1)}
+  C1C: 24729907.0455  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C1P: 24729906.2455  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C2P: 24729915.6583  snr: nan  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  L1P: 24729878.4228  snr: 37.50  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  L2P: 24729869.4339  snr: 17.40  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  IonoFreeC_1P_2P: 24729891.6959  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  IonoFreeL_1P_2P: 24729892.3171  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+
+A::1000059::Unexpected Error Thrown From Below Measurement Model::Error Caught::Requested epoch 542375982 is out of bounds of the Ionex map, which spans from 542376000.000000 to 542462400.000000
+libgregres/modelOneWay.cpp was processing::signal path:: {BON2(1)-GPS47(1)} at time 542376000 (2017-03-10 00:00:00.000000), data record:: 5.423760000000000E+08 (2017-03-10 00:00:00.000000) : {BON2(1)-GPS47(1)}
+  C1C: 24729907.0455  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C1P: 24729906.2455  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C2P: 24729915.6583  snr: nan  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  L1P: 24729878.4228  snr: 37.50  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  L2P: 24729869.4339  snr: 17.40  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  IonoFreeC_1P_2P: 24729891.6959  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 0  BreakT: 5.423760000000000E+08
+  IonoFreeL_1P_2P: 24729892.3171  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+
+A::1000059::Unexpected Error Thrown From Below Measurement Model::Error Caught::Requested epoch 542375982 is out of bounds of the Ionex map, which spans from 542376000.000000 to 542462400.000000
+libgregres/modelOneWay.cpp was processing::signal path:: {BON2(1)-GPS48(1)} at time 542376000 (2017-03-10 00:00:00.000000), data record:: 5.423760000000000E+08 (2017-03-10 00:00:00.000000) : {BON2(1)-GPS48(1)}
+  C1C: 20151845.1465  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C1P: 20151845.3295  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C2P: 20151851.5015  snr: nan  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  L1P: 20151826.7807  snr: 52.40  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  L2P: 20151820.5872  snr: 43.30  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  IonoFreeC_1P_2P: 20151835.7893  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  IonoFreeL_1P_2P: 20151836.3542  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+
+A::1000059::Unexpected Error Thrown From Below Measurement Model::Error Caught::Requested epoch 542375982 is out of bounds of the Ionex map, which spans from 542376000.000000 to 542462400.000000
+libgregres/modelOneWay.cpp was processing::signal path:: {BON2(1)-GPS48(1)} at time 542376000 (2017-03-10 00:00:00.000000), data record:: 5.423760000000000E+08 (2017-03-10 00:00:00.000000) : {BON2(1)-GPS48(1)}
+  C1C: 20151845.1465  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C1P: 20151845.3295  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C2P: 20151851.5015  snr: nan  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  L1P: 20151826.7807  snr: 52.40  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  L2P: 20151820.5872  snr: 43.30  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  IonoFreeC_1P_2P: 20151835.7893  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 0  BreakT: 5.423760000000000E+08
+  IonoFreeL_1P_2P: 20151836.3542  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+
+A::1000059::Unexpected Error Thrown From Below Measurement Model::Error Caught::Requested epoch 542375982 is out of bounds of the Ionex map, which spans from 542376000.000000 to 542462400.000000
+libgregres/modelOneWay.cpp was processing::signal path:: {BON2(1)-GPS53(1)} at time 542376000 (2017-03-10 00:00:00.000000), data record:: 5.423760000000000E+08 (2017-03-10 00:00:00.000000) : {BON2(1)-GPS53(1)}
+  C1C: 22363779.8707  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C1P: 22363780.1537  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C2P: 22363788.0564  snr: nan  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  L1P: 22363756.3518  snr: 49.00  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  L2P: 22363748.4121  snr: 34.50  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  IonoFreeC_1P_2P: 22363767.9383  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  IonoFreeL_1P_2P: 22363768.6243  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+
+A::1000059::Unexpected Error Thrown From Below Measurement Model::Error Caught::Requested epoch 542375982 is out of bounds of the Ionex map, which spans from 542376000.000000 to 542462400.000000
+libgregres/modelOneWay.cpp was processing::signal path:: {BON2(1)-GPS53(1)} at time 542376000 (2017-03-10 00:00:00.000000), data record:: 5.423760000000000E+08 (2017-03-10 00:00:00.000000) : {BON2(1)-GPS53(1)}
+  C1C: 22363779.8707  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C1P: 22363780.1537  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C2P: 22363788.0564  snr: nan  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  L1P: 22363756.3518  snr: 49.00  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  L2P: 22363748.4121  snr: 34.50  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  IonoFreeC_1P_2P: 22363767.9383  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 0  BreakT: 5.423760000000000E+08
+  IonoFreeL_1P_2P: 22363768.6243  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+
+A::1000059::Unexpected Error Thrown From Below Measurement Model::Error Caught::Requested epoch 542375982 is out of bounds of the Ionex map, which spans from 542376000.000000 to 542462400.000000
+libgregres/modelOneWay.cpp was processing::signal path:: {BON2(1)-GPS59(1)} at time 542376000 (2017-03-10 00:00:00.000000), data record:: 5.423760000000000E+08 (2017-03-10 00:00:00.000000) : {BON2(1)-GPS59(1)}
+  C1C: 24080656.4296  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C1P: 24080655.7376  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C2P: 24080665.3752  snr: nan  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  L1P: 24080625.9497  snr: 44.10  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  L2P: 24080616.1384  snr: 25.40  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  IonoFreeC_1P_2P: 24080640.8404  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  IonoFreeL_1P_2P: 24080641.1153  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+
+A::1000059::Unexpected Error Thrown From Below Measurement Model::Error Caught::Requested epoch 542375982 is out of bounds of the Ionex map, which spans from 542376000.000000 to 542462400.000000
+libgregres/modelOneWay.cpp was processing::signal path:: {BON2(1)-GPS59(1)} at time 542376000 (2017-03-10 00:00:00.000000), data record:: 5.423760000000000E+08 (2017-03-10 00:00:00.000000) : {BON2(1)-GPS59(1)}
+  C1C: 24080656.4296  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C1P: 24080655.7376  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C2P: 24080665.3752  snr: nan  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  L1P: 24080625.9497  snr: 44.10  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  L2P: 24080616.1384  snr: 25.40  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  IonoFreeC_1P_2P: 24080640.8404  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 0  BreakT: 5.423760000000000E+08
+  IonoFreeL_1P_2P: 24080641.1153  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+
+A::1000059::Unexpected Error Thrown From Below Measurement Model::Error Caught::Requested epoch 542375982 is out of bounds of the Ionex map, which spans from 542376000.000000 to 542462400.000000
+libgregres/modelOneWay.cpp was processing::signal path:: {BON2(1)-GPS63(1)} at time 542376000 (2017-03-10 00:00:00.000000), data record:: 5.423760000000000E+08 (2017-03-10 00:00:00.000000) : {BON2(1)-GPS63(1)}
+  C1C: 20931926.2629  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C1P: 20931926.6229  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C2P: 20931936.4850  snr: nan  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  L1P: 20931896.3019  snr: 49.00  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  L2P: 20931886.4261  snr: 38.80  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  IonoFreeC_1P_2P: 20931911.3787  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  IonoFreeL_1P_2P: 20931911.5672  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+
+A::1000059::Unexpected Error Thrown From Below Measurement Model::Error Caught::Requested epoch 542375982 is out of bounds of the Ionex map, which spans from 542376000.000000 to 542462400.000000
+libgregres/modelOneWay.cpp was processing::signal path:: {BON2(1)-GPS63(1)} at time 542376000 (2017-03-10 00:00:00.000000), data record:: 5.423760000000000E+08 (2017-03-10 00:00:00.000000) : {BON2(1)-GPS63(1)}
+  C1C: 20931926.2629  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C1P: 20931926.6229  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C2P: 20931936.4850  snr: nan  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  L1P: 20931896.3019  snr: 49.00  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  L2P: 20931886.4261  snr: 38.80  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  IonoFreeC_1P_2P: 20931911.3787  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 0  BreakT: 5.423760000000000E+08
+  IonoFreeL_1P_2P: 20931911.5672  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+
+A::1000059::Unexpected Error Thrown From Below Measurement Model::Error Caught::Requested epoch 542375982 is out of bounds of the Ionex map, which spans from 542376000.000000 to 542462400.000000
+libgregres/modelOneWay.cpp was processing::signal path:: {BON2(1)-GPS64(1)} at time 542376000 (2017-03-10 00:00:00.000000), data record:: 5.423760000000000E+08 (2017-03-10 00:00:00.000000) : {BON2(1)-GPS64(1)}
+  C1C: 21933870.2504  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C1P: 21933870.1254  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C2P: 21933879.3906  snr: nan  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  L1P: 21933841.7132  snr: 47.70  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  L2P: 21933832.3381  snr: 36.00  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  IonoFreeC_1P_2P: 21933855.8039  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  IonoFreeL_1P_2P: 21933856.2046  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+
+A::1000059::Unexpected Error Thrown From Below Measurement Model::Error Caught::Requested epoch 542375982 is out of bounds of the Ionex map, which spans from 542376000.000000 to 542462400.000000
+libgregres/modelOneWay.cpp was processing::signal path:: {BON2(1)-GPS64(1)} at time 542376000 (2017-03-10 00:00:00.000000), data record:: 5.423760000000000E+08 (2017-03-10 00:00:00.000000) : {BON2(1)-GPS64(1)}
+  C1C: 21933870.2504  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C1P: 21933870.1254  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C2P: 21933879.3906  snr: nan  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  L1P: 21933841.7132  snr: 47.70  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  L2P: 21933832.3381  snr: 36.00  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  IonoFreeC_1P_2P: 21933855.8039  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 0  BreakT: 5.423760000000000E+08
+  IonoFreeL_1P_2P: 21933856.2046  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+
+A::1000059::Unexpected Error Thrown From Below Measurement Model::Error Caught::Requested epoch 542375982 is out of bounds of the Ionex map, which spans from 542376000.000000 to 542462400.000000
+libgregres/modelOneWay.cpp was processing::signal path:: {BON2(1)-GPS68(1)} at time 542376000 (2017-03-10 00:00:00.000000), data record:: 5.423760000000000E+08 (2017-03-10 00:00:00.000000) : {BON2(1)-GPS68(1)}
+  C1C: 21975621.3962  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C1P: 21975621.4142  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C2P: 21975631.7431  snr: nan  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  L1P: 21975589.8750  snr: 46.90  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  L2P: 21975579.5349  snr: 35.70  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  IonoFreeC_1P_2P: 21975605.4486  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  IonoFreeL_1P_2P: 21975605.8581  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+
+A::1000059::Unexpected Error Thrown From Below Measurement Model::Error Caught::Requested epoch 542375982 is out of bounds of the Ionex map, which spans from 542376000.000000 to 542462400.000000
+libgregres/modelOneWay.cpp was processing::signal path:: {BON2(1)-GPS68(1)} at time 542376000 (2017-03-10 00:00:00.000000), data record:: 5.423760000000000E+08 (2017-03-10 00:00:00.000000) : {BON2(1)-GPS68(1)}
+  C1C: 21975621.3962  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C1P: 21975621.4142  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C2P: 21975631.7431  snr: nan  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  L1P: 21975589.8750  snr: 46.90  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  L2P: 21975579.5349  snr: 35.70  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  IonoFreeC_1P_2P: 21975605.4486  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 0  BreakT: 5.423760000000000E+08
+  IonoFreeL_1P_2P: 21975605.8581  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+
+A::1000059::Unexpected Error Thrown From Below Measurement Model::Error Caught::Requested epoch 542375982 is out of bounds of the Ionex map, which spans from 542376000.000000 to 542462400.000000
+libgregres/modelOneWay.cpp was processing::signal path:: {BON2(1)-GPS69(1)} at time 542376000 (2017-03-10 00:00:00.000000), data record:: 5.423760000000000E+08 (2017-03-10 00:00:00.000000) : {BON2(1)-GPS69(1)}
+  C1C: 24614430.5770  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C1P: 24614430.9200  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C2P: 24614446.0096  snr: nan  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  L1P: 24614383.3321  snr: 38.60  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  L2P: 24614367.9564  snr: 20.40  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  IonoFreeC_1P_2P: 24614407.5955  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  IonoFreeL_1P_2P: 24614407.0986  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+
+A::1000059::Unexpected Error Thrown From Below Measurement Model::Error Caught::Requested epoch 542375982 is out of bounds of the Ionex map, which spans from 542376000.000000 to 542462400.000000
+libgregres/modelOneWay.cpp was processing::signal path:: {BON2(1)-GPS69(1)} at time 542376000 (2017-03-10 00:00:00.000000), data record:: 5.423760000000000E+08 (2017-03-10 00:00:00.000000) : {BON2(1)-GPS69(1)}
+  C1C: 24614430.5770  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C1P: 24614430.9200  snr: nan  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  C2P: 24614446.0096  snr: nan  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  L1P: 24614383.3321  snr: 38.60  sig: nan  freq: 1.575420e+09  good: 1  BreakT: 5.423760000000000E+08
+  L2P: 24614367.9564  snr: 20.40  sig: nan  freq: 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+  IonoFreeC_1P_2P: 24614407.5955  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 0  BreakT: 5.423760000000000E+08
+  IonoFreeL_1P_2P: 24614407.0986  snr: nan  sig: nan  freq: 1.575420e+09 1.227600e+09  good: 1  BreakT: 5.423760000000000E+08
+

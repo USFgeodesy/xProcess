@@ -1,0 +1,80 @@
+# Basic Editing for  station data
+
+# Only these variables need be defined to edit in nominal mode
+# Currently geared to 30-sec rinex data with 300-sec output, ground arcs
+
+DATAFILE == /home/nvoss/xProcess/example_notebooks/CABA/2017/CABA0600.17d.Z
+FORMAT_IN == rinex
+FORMAT_OUT == datarecord
+OUTPUT    == dataRecordFile.gz
+STATION_NAME == CABA
+RECEIVER_TYPE == 2
+LATITUDE      == 10.23768217713149
+
+
+Self
+  Metadata Off     # Use "On" to output originating file and line number
+  File gde_debug_tree
+
+Stations
+    $STATION_NAME
+      ReceiverType $RECEIVER_TYPE
+      Latitude $LATITUDE
+
+Global
+     Mode PostProcess
+     Input
+        Type File            
+         Format $FORMAT_IN
+         Name $DATAFILE 
+     Output
+       Type File
+         Format $FORMAT_OUT 
+         Name $OUTPUT
+         OutputLCPC Yes
+
+     ClockPrep  Off
+
+     P1-C1 On   # Correct bias between C1C and C1[PW] if possible write an
+                # additional C1P = C1C + Bias
+       Strict No
+
+     Statistics
+       Interval 30
+       Output gde.stats 2
+       ArcMinLength 20
+     Debug
+       PostProcess gde.debug 0
+
+PostProcess
+    CodeType ALL
+    ShortArc
+       MinPnts On
+           Value 3
+       MinSpan On
+           Value 1200.0
+
+    PreEdit
+       MaxPhase On
+           Value 1.5e16
+       PreRange On
+           Min 1.5e7
+           Max 6.0e7  # 60,000 km for GEO/IGSO
+
+    TurboEdit On
+       WideLaneNinja On
+       NwSigma       4
+       IonoMaxGap    1800
+       IonoNPerOrder 100
+       IonoMaxPoly   10
+       IonoResJump   15
+
+    SanityCheck On
+       SanNinja      On
+       SanOutage     300
+       SanMinPt      10                        
+       SanRMS        -0.12
+
+    DecimateSmooth On
+       Interval      300
+       Tolerance     1e-11

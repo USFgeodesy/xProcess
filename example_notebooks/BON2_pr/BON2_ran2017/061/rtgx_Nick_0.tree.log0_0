@@ -1,0 +1,466 @@
+gcore::mpiInit : MPI_THREAD_FUNNELED provided.
+*******************   MpiGcore   *******************
+   Host name : SCA-221-Desktop 
+   Run time  : Apr 23 2018 (16:12:39) 
+   MPI rank  : 0 
+****************************************************
+   
+Executing command: {((cat stations.txt) > /tmp/tmpout.waVSXy) 2> /tmp/tmperr.cGSiiy}
+  ... returned with status 0
+Executing command: {((staDb2TreeIn.py -s stations.txt -y2kSecs 541684800 -d /home/nvoss/xProcess/example_notebooks/BON2_pr/rinexStaDb) > /tmp/tmpout.kOx3Cx) 2> /tmp/tmperr.cPuOXw}
+  ... returned with status 0
+Executing command: {((cat gnssList.txt) > /tmp/tmpout.XjgbCw) 2> /tmp/tmperr.jAfygw}
+  ... returned with status 0
+Executing command: {((pcm.py -file GNSSinitValues/GNSS.pcm -epoch 541684800 -sat gnssList.txt -param Antenna1) > /tmp/tmpout.jXghVv) 2> /tmp/tmperr.zts0zv}
+  ... returned with status 0
+E::1000038::Planetary Ephemeris::Read Planetary Ephemeris from file "/home/nvoss/tools/gipsyx/goa-var/eph/de421.bin"::
+E::1000027::Earth Orientation::Read Earth Orientation data from file "GNSSinitValues/GNSS.eo"
+E::1000027::Earth Orientation::Read Earth Orientation data from file "GNSSinitValues/GNSS.eo"
+E::1000011::Reader Event::Connected TimeDepParmsSourcerer to file "GNSSinitValues/GNSS.tdp"
+E::1000013::Writer Event::Connected TimeDepParmsWriter to file "filter.tdp"
+E::1000011::Reader Event::Reading ant cal file allStations.xyz
+E::1000011::Reader Event::Read file: "/home/nvoss/tools/gipsyx/goa-var/etc/yawBiasTable.pcm"
+E::1000011::Reader Event::Read file: "/home/nvoss/tools/gipsyx/goa-var/etc/nominalYawRates.pcm"
+E::1000011::Reader Event::Reading ant cal file /home/nvoss/tools/gipsyx/goa-var/etc/antenna_cals_xmit/igs08_1884.xyz
+E::0::WlpbPoolReader::Read 7366 from file : GNSSinitValues/GNSS.wlpb Excluded entries : 0
+E::1000011::Reader Event::Read ConstellationInfo file /home/nvoss/tools/gipsyx/goa-var/etc/ConstellationInfo
+E::0::Ionex::IONEX File /home/nvoss/goa-var/cddis.gsfc.nasa.gov/gps/products/ionex/2017/061/jplg0610.17i loaded
+E::0::Input Event::Read Input from file "Trees/Nick_0.tree"
+E::1000042::Shadow Crossing::GPS54 Earth Clear To Earth Penumbra 541675892.8894043 (2017-03-01 21:31:32.889404)
+E::1000042::Shadow Crossing::GPS54 Earth Penumbra To Earth Umbra 541675960.4553223 (2017-03-01 21:32:40.455322)
+E::1000042::Shadow Crossing::GPS54 Earth Umbra To Earth Penumbra 541679115.7505193 (2017-03-01 22:25:15.750519)
+E::1000042::Shadow Crossing::GPS54 Earth Penumbra To Earth Clear 541679184.3146031 (2017-03-01 22:26:24.314603)
+E::1000042::Shadow Crossing::GPS56 Earth Clear To Earth Penumbra 541683867.9199219 (2017-03-01 23:44:27.919922)
+E::1000042::Shadow Crossing::GPS56 Earth Penumbra To Earth Umbra 541683932.9589844 (2017-03-01 23:45:32.958984)
+E::1000042::Shadow Crossing::GPS71 Earth Clear To Earth Penumbra 541681002.1362305 (2017-03-01 22:56:42.136230)
+E::1000042::Shadow Crossing::GPS71 Earth Penumbra To Earth Umbra 541681068.7133789 (2017-03-01 22:57:48.713379)
+E::1000042::Shadow Crossing::GPS71 Earth Umbra To Earth Penumbra 541684252.0583735 (2017-03-01 23:50:52.058373)
+E::1000042::Shadow Crossing::GPS71 Earth Penumbra To Earth Clear 541684318.1431302 (2017-03-01 23:51:58.143130)
+E::1000042::Shadow Crossing::GPS73 Earth Clear To Earth Penumbra 541679391.8151855 (2017-03-01 22:29:51.815186)
+E::1000042::Shadow Crossing::GPS73 Earth Penumbra To Earth Umbra 541679462.1276855 (2017-03-01 22:31:02.127686)
+E::1000042::Shadow Crossing::GPS73 Earth Umbra To Earth Penumbra 541682471.8239940 (2017-03-01 23:21:11.823994)
+E::1000042::Shadow Crossing::GPS73 Earth Penumbra To Earth Clear 541682542.2302682 (2017-03-01 23:22:22.230268)
+E::1000022::Model Warning::Exception somewhere in model(), caught in ModelInterface() for signal path {BON2(1)-GPS44(1)} at time 541684800 (2017-03-02 00:00:00.000000). OutputMsgEvery: 86400 seconds.
+E::1000022::Model Warning::Exception somewhere in model(), caught in ModelInterface() for signal path {BON2(1)-GPS46(1)} at time 541684800 (2017-03-02 00:00:00.000000). OutputMsgEvery: 86400 seconds.
+E::1000022::Model Warning::Exception somewhere in model(), caught in ModelInterface() for signal path {BON2(1)-GPS48(1)} at time 541684800 (2017-03-02 00:00:00.000000). OutputMsgEvery: 86400 seconds.
+E::1000022::Model Warning::Exception somewhere in model(), caught in ModelInterface() for signal path {BON2(1)-GPS53(1)} at time 541684800 (2017-03-02 00:00:00.000000). OutputMsgEvery: 86400 seconds.
+E::1000022::Model Warning::Exception somewhere in model(), caught in ModelInterface() for signal path {BON2(1)-GPS59(1)} at time 541684800 (2017-03-02 00:00:00.000000). OutputMsgEvery: 86400 seconds.
+E::1000022::Model Warning::Exception somewhere in model(), caught in ModelInterface() for signal path {BON2(1)-GPS60(1)} at time 541684800 (2017-03-02 00:00:00.000000). OutputMsgEvery: 86400 seconds.
+E::1000022::Model Warning::Exception somewhere in model(), caught in ModelInterface() for signal path {BON2(1)-GPS63(1)} at time 541684800 (2017-03-02 00:00:00.000000). OutputMsgEvery: 86400 seconds.
+E::1000022::Model Warning::Exception somewhere in model(), caught in ModelInterface() for signal path {BON2(1)-GPS64(1)} at time 541684800 (2017-03-02 00:00:00.000000). OutputMsgEvery: 86400 seconds.
+E::1000022::Model Warning::Exception somewhere in model(), caught in ModelInterface() for signal path {BON2(1)-GPS68(1)} at time 541684800 (2017-03-02 00:00:00.000000). OutputMsgEvery: 86400 seconds.
+E::1000022::Model Warning::Exception somewhere in model(), caught in ModelInterface() for signal path {BON2(1)-GPS72(1)} at time 541684800 (2017-03-02 00:00:00.000000). OutputMsgEvery: 86400 seconds.
+E::1000042::Shadow Crossing::GPS47 Earth Clear To Earth Penumbra 541689566.7480469 (2017-03-02 01:19:26.748047)
+E::1000042::Shadow Crossing::GPS47 Earth Penumbra To Earth Umbra 541689633.5449219 (2017-03-02 01:20:33.544922)
+E::1000042::Shadow Crossing::GPS56 Earth Umbra To Earth Penumbra 541687218.8598633 (2017-03-02 00:40:18.859863)
+E::1000042::Shadow Crossing::GPS56 Earth Penumbra To Earth Clear 541687284.4775319 (2017-03-02 00:41:24.477532)
+E::1000042::Shadow Crossing::GPS69 Earth Clear To Earth Penumbra 541691970.5566406 (2017-03-02 01:59:30.556641)
+E::1000042::Shadow Crossing::GPS47 Earth Umbra To Earth Penumbra 541692788.8183594 (2017-03-02 02:13:08.818359)
+E::1000042::Shadow Crossing::GPS47 Earth Penumbra To Earth Clear 541692856.1353683 (2017-03-02 02:14:16.135368)
+E::1000042::Shadow Crossing::GPS69 Earth Penumbra To Earth Umbra 541692040.8691406 (2017-03-02 02:00:40.869141)
+E::1000042::Shadow Crossing::GPS69 Earth Umbra To Earth Penumbra 541695041.4550781 (2017-03-02 02:50:41.455078)
+E::1000042::Shadow Crossing::GPS69 Earth Penumbra To Earth Clear 541695111.0004663 (2017-03-02 02:51:51.000466)
+E::1000042::Shadow Crossing::GPS44 Earth Clear To Earth Penumbra 541698535.9863281 (2017-03-02 03:48:55.986328)
+E::1000042::Shadow Crossing::GPS44 Earth Penumbra To Earth Umbra 541698601.9042969 (2017-03-02 03:50:01.904297)
+E::1000042::Shadow Crossing::GPS44 Earth Umbra To Earth Penumbra 541701869.6777344 (2017-03-02 04:44:29.677734)
+E::1000042::Shadow Crossing::GPS44 Earth Penumbra To Earth Clear 541701934.7167969 (2017-03-02 04:45:34.716797)
+E::1000042::Shadow Crossing::GPS50 Earth Clear To Earth Penumbra 541707462.1582031 (2017-03-02 06:17:42.158203)
+E::1000042::Shadow Crossing::GPS50 Earth Penumbra To Earth Umbra 541707529.8339844 (2017-03-02 06:18:49.833984)
+E::1000042::Shadow Crossing::GPS50 Earth Umbra To Earth Penumbra 541710598.9746094 (2017-03-02 07:09:58.974609)
+E::1000042::Shadow Crossing::GPS50 Earth Penumbra To Earth Clear 541710666.2937641 (2017-03-02 07:11:06.293764)
+E::1000042::Shadow Crossing::GPS58 Earth Clear To Earth Penumbra 541710841.5527344 (2017-03-02 07:14:01.552734)
+E::1000042::Shadow Crossing::GPS58 Earth Penumbra To Earth Umbra 541710906.5917969 (2017-03-02 07:15:06.591797)
+E::1000042::Shadow Crossing::GPS51 Earth Clear To Earth Penumbra 541712547.5097656 (2017-03-02 07:42:27.509766)
+E::1000042::Shadow Crossing::GPS51 Earth Penumbra To Earth Umbra 541712611.6699219 (2017-03-02 07:43:31.669922)
+E::1000042::Shadow Crossing::GPS58 Earth Umbra To Earth Penumbra 541714188.4277344 (2017-03-02 08:09:48.427734)
+E::1000042::Shadow Crossing::GPS58 Earth Penumbra To Earth Clear 541714253.2371998 (2017-03-02 08:10:53.237200)
+E::1000042::Shadow Crossing::GPS62 Earth Clear To Earth Penumbra 541715128.8574219 (2017-03-02 08:25:28.857422)
+E::1000042::Shadow Crossing::GPS62 Earth Penumbra To Earth Umbra 541715195.6542969 (2017-03-02 08:26:35.654297)
+E::1000042::Shadow Crossing::GPS51 Earth Umbra To Earth Penumbra 541715868.0175781 (2017-03-02 08:37:48.017578)
+E::1000042::Shadow Crossing::GPS51 Earth Penumbra To Earth Clear 541715932.5618267 (2017-03-02 08:38:52.561827)
+E::1000042::Shadow Crossing::GPS54 Earth Clear To Earth Penumbra 541718972.3144531 (2017-03-02 09:29:32.314453)
+E::1000042::Shadow Crossing::GPS62 Earth Umbra To Earth Penumbra 541718413.3300781 (2017-03-02 09:20:13.330078)
+E::1000042::Shadow Crossing::GPS62 Earth Penumbra To Earth Clear 541718479.5023203 (2017-03-02 09:21:19.502320)
+E::1000042::Shadow Crossing::GPS54 Earth Penumbra To Earth Umbra 541719039.1113281 (2017-03-02 09:30:39.111328)
+E::1000042::Shadow Crossing::GPS54 Earth Umbra To Earth Penumbra 541722227.7832031 (2017-03-02 10:23:47.783203)
+E::1000042::Shadow Crossing::GPS54 Earth Penumbra To Earth Clear 541722295.0294018 (2017-03-02 10:24:55.029402)
+E::1000042::Shadow Crossing::GPS73 Earth Clear To Earth Penumbra 541722459.8144531 (2017-03-02 10:27:39.814453)
+E::1000042::Shadow Crossing::GPS73 Earth Penumbra To Earth Umbra 541722529.2480469 (2017-03-02 10:28:49.248047)
+E::1000042::Shadow Crossing::GPS71 Earth Clear To Earth Penumbra 541724139.4042969 (2017-03-02 10:55:39.404297)
+E::1000042::Shadow Crossing::GPS71 Earth Penumbra To Earth Umbra 541724206.2011719 (2017-03-02 10:56:46.201172)
+E::1000042::Shadow Crossing::GPS73 Earth Umbra To Earth Penumbra 541725587.8417969 (2017-03-02 11:19:47.841797)
+E::1000042::Shadow Crossing::GPS73 Earth Penumbra To Earth Clear 541725656.8889380 (2017-03-02 11:20:56.888938)
+E::1000042::Shadow Crossing::GPS56 Earth Clear To Earth Penumbra 541726994.0917969 (2017-03-02 11:43:14.091797)
+E::1000042::Shadow Crossing::GPS56 Earth Penumbra To Earth Umbra 541727060.0097656 (2017-03-02 11:44:20.009766)
+E::1000042::Shadow Crossing::GPS71 Earth Umbra To Earth Penumbra 541727372.0214844 (2017-03-02 11:49:32.021484)
+E::1000042::Shadow Crossing::GPS71 Earth Penumbra To Earth Clear 541727438.5602236 (2017-03-02 11:50:38.560224)
+E::1000042::Shadow Crossing::GPS56 Earth Umbra To Earth Penumbra 541730349.7558594 (2017-03-02 12:39:09.755859)
+E::1000042::Shadow Crossing::GPS56 Earth Penumbra To Earth Clear 541730415.7686710 (2017-03-02 12:40:15.768671)
+E::1000042::Shadow Crossing::GPS47 Earth Clear To Earth Penumbra 541732642.8222656 (2017-03-02 13:17:22.822266)
+E::1000042::Shadow Crossing::GPS47 Earth Penumbra To Earth Umbra 541732709.6191406 (2017-03-02 13:18:29.619141)
+E::1000042::Shadow Crossing::GPS69 Earth Clear To Earth Penumbra 541735041.3574219 (2017-03-02 13:57:21.357422)
+E::1000042::Shadow Crossing::GPS69 Earth Penumbra To Earth Umbra 541735109.9121094 (2017-03-02 13:58:29.912109)
+E::1000042::Shadow Crossing::GPS47 Earth Umbra To Earth Penumbra 541735895.6542969 (2017-03-02 14:11:35.654297)
+E::1000042::Shadow Crossing::GPS47 Earth Penumbra To Earth Clear 541735961.5078926 (2017-03-02 14:12:41.507893)
+E::1000042::Shadow Crossing::GPS69 Earth Umbra To Earth Penumbra 541738159.7167969 (2017-03-02 14:49:19.716797)
+E::1000042::Shadow Crossing::GPS69 Earth Penumbra To Earth Clear 541738228.8098574 (2017-03-02 14:50:28.809857)
+E::1000042::Shadow Crossing::GPS44 Earth Clear To Earth Penumbra 541741662.1582031 (2017-03-02 15:47:42.158203)
+E::1000042::Shadow Crossing::GPS44 Earth Penumbra To Earth Umbra 541741727.1972656 (2017-03-02 15:48:47.197266)
+E::1000042::Shadow Crossing::GPS44 Earth Umbra To Earth Penumbra 541745000.2441406 (2017-03-02 16:43:20.244141)
+E::1000042::Shadow Crossing::GPS44 Earth Penumbra To Earth Clear 541745064.5399094 (2017-03-02 16:44:24.539909)
+E::1000042::Shadow Crossing::GPS50 Earth Clear To Earth Penumbra 541750535.5957031 (2017-03-02 18:15:35.595703)
+E::1000042::Shadow Crossing::GPS50 Earth Penumbra To Earth Umbra 541750602.3925781 (2017-03-02 18:16:42.392578)
+E::1000042::Shadow Crossing::GPS50 Earth Umbra To Earth Penumbra 541753710.2050781 (2017-03-02 19:08:30.205078)
+E::1000042::Shadow Crossing::GPS50 Earth Penumbra To Earth Clear 541753776.8204212 (2017-03-02 19:09:36.820421)
+E::1000042::Shadow Crossing::GPS58 Earth Clear To Earth Penumbra 541753967.7246094 (2017-03-02 19:12:47.724609)
+E::1000042::Shadow Crossing::GPS58 Earth Penumbra To Earth Umbra 541754032.7636719 (2017-03-02 19:13:52.763672)
+E::1000042::Shadow Crossing::GPS51 Earth Clear To Earth Penumbra 541755635.8886719 (2017-03-02 19:40:35.888672)
+E::1000042::Shadow Crossing::GPS51 Earth Penumbra To Earth Umbra 541755700.9277344 (2017-03-02 19:41:40.927734)
+E::1000042::Shadow Crossing::GPS58 Earth Umbra To Earth Penumbra 541757314.5996094 (2017-03-02 20:08:34.599609)
+E::1000042::Shadow Crossing::GPS58 Earth Penumbra To Earth Clear 541757378.9584637 (2017-03-02 20:09:38.958464)
+E::1000042::Shadow Crossing::GPS62 Earth Clear To Earth Penumbra 541758263.8183594 (2017-03-02 20:24:23.818359)
+E::1000042::Shadow Crossing::GPS62 Earth Penumbra To Earth Umbra 541758330.6152344 (2017-03-02 20:25:30.615234)
+E::1000042::Shadow Crossing::GPS51 Earth Umbra To Earth Penumbra 541758963.4277344 (2017-03-02 20:36:03.427734)
+E::1000042::Shadow Crossing::GPS51 Earth Penumbra To Earth Clear 541759028.1412840 (2017-03-02 20:37:08.141284)
+E::1000042::Shadow Crossing::GPS54 Earth Clear To Earth Penumbra 541762054.5410156 (2017-03-02 21:27:34.541016)
+E::1000042::Shadow Crossing::GPS54 Earth Penumbra To Earth Umbra 541762120.4589844 (2017-03-02 21:28:40.458984)
+E::1000042::Shadow Crossing::GPS62 Earth Umbra To Earth Penumbra 541761533.3496094 (2017-03-02 21:18:53.349609)
+E::1000042::Shadow Crossing::GPS62 Earth Penumbra To Earth Clear 541761600.0797510 (2017-03-02 21:20:00.079751)
+E::1000042::Shadow Crossing::GPS54 Earth Umbra To Earth Penumbra 541765337.2558594 (2017-03-02 22:22:17.255859)
+E::1000042::Shadow Crossing::GPS54 Earth Penumbra To Earth Clear 541765403.6849499 (2017-03-02 22:23:23.684950)
+E::1000042::Shadow Crossing::GPS73 Earth Clear To Earth Penumbra 541765529.7363281 (2017-03-02 22:25:29.736328)
+E::1000042::Shadow Crossing::GPS73 Earth Penumbra To Earth Umbra 541765598.2910156 (2017-03-02 22:26:38.291016)
+E::1000042::Shadow Crossing::GPS71 Earth Clear To Earth Penumbra 541767277.8808594 (2017-03-02 22:54:37.880859)
+E::1000042::Shadow Crossing::GPS71 Earth Penumbra To Earth Umbra 541767344.6777344 (2017-03-02 22:55:44.677734)
+E::1000042::Shadow Crossing::GPS73 Earth Umbra To Earth Penumbra 541768700.8300781 (2017-03-02 23:18:20.830078)
+E::1000042::Shadow Crossing::GPS73 Earth Penumbra To Earth Clear 541768768.7669992 (2017-03-02 23:19:28.766999)
+E::1000042::Shadow Crossing::GPS56 Earth Clear To Earth Penumbra 541770121.1425781 (2017-03-02 23:42:01.142578)
+E::1000042::Shadow Crossing::GPS56 Earth Penumbra To Earth Umbra 541770187.0605469 (2017-03-02 23:43:07.060547)
+E::1000042::Shadow Crossing::GPS71 Earth Umbra To Earth Penumbra 541770491.1621094 (2017-03-02 23:48:11.162109)
+E::1000042::Shadow Crossing::GPS71 Earth Penumbra To Earth Clear 541770558.6539984 (2017-03-02 23:49:18.653998)
+E::1000042::Shadow Crossing::GPS56 Earth Umbra To Earth Penumbra 541773480.3222656 (2017-03-03 00:38:00.322266)
+E::1000042::Shadow Crossing::GPS56 Earth Penumbra To Earth Clear 541773545.4870701 (2017-03-03 00:39:05.487070)
+E::1000013::Writer Event::Disconnecting TimeDepParmsWriter from file "filter.tdp"
+E::1000013::Writer Event::Connected TimeDepParmsWriter to file "iter0_Smoother.tdp"
+E::1000013::Writer Event::Writing satellite states to file "iter0_Smoother.pos".
+------------------------------------------------------------------
+---   Initial post-Smoothing residual info:
+------------------------------------------------------------------
+---   included residuals  :      5456 ( 100.0% )
+---   deleted residuals   :         0 (   0.0% )
+---      DataType           Status        RMS (m)         Max (m)         Min (m)         number (%) 
+---   IonoFreeC_1P_2P   included      5.924102e-01    2.365099e+00   -2.303150e+00      2728 ( 100.0% )
+---   IonoFreeC_1P_2P    deleted      0.000000e+00    0.000000e+00    0.000000e+00         0 (   0.0% )
+---
+---   IonoFreeL_1P_2P   included      1.241722e-02    9.001653e-02   -8.409796e-02      2728 ( 100.0% )
+---   IonoFreeL_1P_2P    deleted      0.000000e+00    0.000000e+00    0.000000e+00         0 (   0.0% )
+------------------------------------------------------------------
+E::1000013::Writer Event::Disconnecting TimeDepParmsWriter from file "iter0_Smoother.tdp"
+FilterSmootherIteration: postSmoothEdit: performing filter/smooth
+   iteration at window 4 (of window size 6) 
+E::1000013::Writer Event::Writing satellite states to file "iter1_forwardFilter.pos".
+E::1000013::Writer Event::Connected TimeDepParmsWriter to file "iter1_forwardFilter.tdp"
+E::1000013::Writer Event::Disconnecting TimeDepParmsWriter from file "iter1_forwardFilter.tdp"
+E::1000013::Writer Event::Writing satellite states to file "iter1_Smoother.pos".
+E::1000013::Writer Event::Connected TimeDepParmsWriter to file "iter1_Smoother.tdp"
+------------------------------------------------------------------
+---   Iteration 1 post-Smoothing residual info:
+------------------------------------------------------------------
+---   included residuals  :      5438 (  99.7% )
+---   deleted residuals   :        18 (   0.3% )
+---      DataType           Status        RMS (m)         Max (m)         Min (m)         number (%) 
+---   IonoFreeC_1P_2P   included      5.925138e-01    2.372435e+00   -2.315277e+00      2728 ( 100.0% )
+---   IonoFreeC_1P_2P    deleted      0.000000e+00    0.000000e+00    0.000000e+00         0 (   0.0% )
+---
+---   IonoFreeL_1P_2P   included      1.110798e-02    4.725019e-02   -5.017972e-02      2710 (  99.3% )
+---   IonoFreeL_1P_2P    deleted      8.938600e-02    1.127927e-01   -1.211466e-01        18 (   0.7% )
+------------------------------------------------------------------
+E::1000013::Writer Event::Disconnecting TimeDepParmsWriter from file "iter1_Smoother.tdp"
+FilterSmootherIteration: postSmoothEdit: performing filter/smooth
+   iteration at window 5 (of window size 6) 
+E::1000013::Writer Event::Writing satellite states to file "iter2_forwardFilter.pos".
+E::1000013::Writer Event::Connected TimeDepParmsWriter to file "iter2_forwardFilter.tdp"
+E::1000013::Writer Event::Disconnecting TimeDepParmsWriter from file "iter2_forwardFilter.tdp"
+E::1000013::Writer Event::Writing satellite states to file "iter2_Smoother.pos".
+E::1000013::Writer Event::Connected TimeDepParmsWriter to file "iter2_Smoother.tdp"
+------------------------------------------------------------------
+---   Iteration 2 post-Smoothing residual info:
+------------------------------------------------------------------
+---   included residuals  :      5319 (  97.5% )
+---   deleted residuals   :       137 (   2.5% )
+---      DataType           Status        RMS (m)         Max (m)         Min (m)         number (%) 
+---   IonoFreeC_1P_2P   included      5.931514e-01    2.374980e+00   -2.311954e+00      2728 ( 100.0% )
+---   IonoFreeC_1P_2P    deleted      0.000000e+00    0.000000e+00    0.000000e+00         0 (   0.0% )
+---
+---   IonoFreeL_1P_2P   included      8.651681e-03    3.236787e-02   -3.159076e-02      2591 (  95.0% )
+---   IonoFreeL_1P_2P    deleted      5.329988e-02    1.206201e-01   -1.221091e-01       137 (   5.0% )
+------------------------------------------------------------------
+E::1000013::Writer Event::Disconnecting TimeDepParmsWriter from file "iter2_Smoother.tdp"
+FilterSmootherIteration: postSmoothEdit: performing filter/smooth
+   iteration at window 5 (of window size 6) 
+E::1000013::Writer Event::Writing satellite states to file "iter3_forwardFilter.pos".
+E::1000013::Writer Event::Connected TimeDepParmsWriter to file "iter3_forwardFilter.tdp"
+E::1000013::Writer Event::Disconnecting TimeDepParmsWriter from file "iter3_forwardFilter.tdp"
+E::1000013::Writer Event::Writing satellite states to file "iter3_Smoother.pos".
+E::1000013::Writer Event::Connected TimeDepParmsWriter to file "iter3_Smoother.tdp"
+------------------------------------------------------------------
+---   Iteration 3 post-Smoothing residual info:
+------------------------------------------------------------------
+---   included residuals  :      5306 (  97.3% )
+---   deleted residuals   :       150 (   2.7% )
+---      DataType           Status        RMS (m)         Max (m)         Min (m)         number (%) 
+---   IonoFreeC_1P_2P   included      5.931544e-01    2.375438e+00   -2.312067e+00      2728 ( 100.0% )
+---   IonoFreeC_1P_2P    deleted      0.000000e+00    0.000000e+00    0.000000e+00         0 (   0.0% )
+---
+---   IonoFreeL_1P_2P   included      8.370476e-03    2.620455e-02   -2.618259e-02      2578 (  94.5% )
+---   IonoFreeL_1P_2P    deleted      5.327535e-02    1.218326e-01   -1.221727e-01       150 (   5.5% )
+------------------------------------------------------------------
+E::1000013::Writer Event::Disconnecting TimeDepParmsWriter from file "iter3_Smoother.tdp"
+FilterSmootherIteration: postSmoothEdit: performing filter/smooth
+   iteration at window 5 (of window size 6) 
+E::1000013::Writer Event::Writing satellite states to file "iter4_forwardFilter.pos".
+E::1000013::Writer Event::Connected TimeDepParmsWriter to file "iter4_forwardFilter.tdp"
+E::1000013::Writer Event::Disconnecting TimeDepParmsWriter from file "iter4_forwardFilter.tdp"
+E::1000013::Writer Event::Writing satellite states to file "iter4_Smoother.pos".
+E::1000013::Writer Event::Connected TimeDepParmsWriter to file "iter4_Smoother.tdp"
+------------------------------------------------------------------
+---   Iteration 4 post-Smoothing residual info:
+------------------------------------------------------------------
+---   included residuals  :      5307 (  97.3% )
+---   deleted residuals   :       149 (   2.7% )
+---      DataType           Status        RMS (m)         Max (m)         Min (m)         number (%) 
+---   IonoFreeC_1P_2P   included      5.932281e-01    2.375875e+00   -2.312127e+00      2728 ( 100.0% )
+---   IonoFreeC_1P_2P    deleted      0.000000e+00    0.000000e+00    0.000000e+00         0 (   0.0% )
+---
+---   IonoFreeL_1P_2P   included      8.362583e-03    2.535740e-02   -2.666686e-02      2579 (  94.5% )
+---   IonoFreeL_1P_2P    deleted      5.388997e-02    1.222795e-01   -1.221875e-01       149 (   5.5% )
+------------------------------------------------------------------
+E::1000013::Writer Event::Disconnecting TimeDepParmsWriter from file "iter4_Smoother.tdp"
+FilterSmootherIteration: postSmoothEdit: performing filter/smooth
+   iteration at window 5 (of window size 6) 
+E::1000013::Writer Event::Writing satellite states to file "iter5_forwardFilter.pos".
+E::1000013::Writer Event::Connected TimeDepParmsWriter to file "iter5_forwardFilter.tdp"
+E::1000013::Writer Event::Disconnecting TimeDepParmsWriter from file "iter5_forwardFilter.tdp"
+E::1000013::Writer Event::Writing satellite states to file "iter5_Smoother.pos".
+E::1000013::Writer Event::Connected TimeDepParmsWriter to file "iter5_Smoother.tdp"
+------------------------------------------------------------------
+---   Iteration 5 post-Smoothing residual info:
+------------------------------------------------------------------
+---   included residuals  :      5306 (  97.3% )
+---   deleted residuals   :       150 (   2.7% )
+---      DataType           Status        RMS (m)         Max (m)         Min (m)         number (%) 
+---   IonoFreeC_1P_2P   included      5.932108e-01    2.375911e+00   -2.311604e+00      2728 ( 100.0% )
+---   IonoFreeC_1P_2P    deleted      0.000000e+00    0.000000e+00    0.000000e+00         0 (   0.0% )
+---
+---   IonoFreeL_1P_2P   included      8.333586e-03    2.653591e-02   -2.430043e-02      2578 (  94.5% )
+---   IonoFreeL_1P_2P    deleted      5.405184e-02    1.232119e-01   -1.225487e-01       150 (   5.5% )
+------------------------------------------------------------------
+E::1000013::Writer Event::Disconnecting TimeDepParmsWriter from file "iter5_Smoother.tdp"
+FilterSmootherIteration: postSmoothEdit: performing filter/smooth
+   iteration at window 5 (of window size 6) 
+E::1000013::Writer Event::Writing satellite states to file "iter6_forwardFilter.pos".
+E::1000013::Writer Event::Connected TimeDepParmsWriter to file "iter6_forwardFilter.tdp"
+E::1000013::Writer Event::Disconnecting TimeDepParmsWriter from file "iter6_forwardFilter.tdp"
+E::1000013::Writer Event::Writing satellite states to file "iter6_Smoother.pos".
+E::1000013::Writer Event::Connected TimeDepParmsWriter to file "iter6_Smoother.tdp"
+------------------------------------------------------------------
+---   Iteration 6 post-Smoothing residual info:
+------------------------------------------------------------------
+---   included residuals  :      5305 (  97.2% )
+---   deleted residuals   :       151 (   2.8% )
+---      DataType           Status        RMS (m)         Max (m)         Min (m)         number (%) 
+---   IonoFreeC_1P_2P   included      5.932496e-01    2.376028e+00   -2.311407e+00      2728 ( 100.0% )
+---   IonoFreeC_1P_2P    deleted      0.000000e+00    0.000000e+00    0.000000e+00         0 (   0.0% )
+---
+---   IonoFreeL_1P_2P   included      8.313725e-03    2.425062e-02   -2.435257e-02      2577 (  94.5% )
+---   IonoFreeL_1P_2P    deleted      5.400539e-02    1.239122e-01   -1.228842e-01       151 (   5.5% )
+------------------------------------------------------------------
+E::1000013::Writer Event::Disconnecting TimeDepParmsWriter from file "iter6_Smoother.tdp"
+---------------------------------------------------------------
+   FilterSmootherIteration: performing filter/smoother sweep for 
+      ambres constraint formulation. 
+---------------------------------------------------------------
+E::1000013::Writer Event::Writing satellite states to file "iter7_forwardFilter.pos".
+E::1000013::Writer Event::Connected TimeDepParmsWriter to file "iter7_forwardFilter.tdp"
+E::1000013::Writer Event::Disconnecting TimeDepParmsWriter from file "iter7_forwardFilter.tdp"
+E::1000013::Writer Event::Writing satellite states to file "iter7_Smoother.pos".
+E::1000013::Writer Event::Connected TimeDepParmsWriter to file "iter7_Smoother.tdp"
+------------------------------------------------------------------
+---   Iteration 7 post-Smoothing residual info:
+------------------------------------------------------------------
+---   included residuals  :      5305 (  97.2% )
+---   deleted residuals   :       151 (   2.8% )
+---      DataType           Status        RMS (m)         Max (m)         Min (m)         number (%) 
+---   IonoFreeC_1P_2P   included      5.932496e-01    2.376028e+00   -2.311407e+00      2728 ( 100.0% )
+---   IonoFreeC_1P_2P    deleted      0.000000e+00    0.000000e+00    0.000000e+00         0 (   0.0% )
+---
+---   IonoFreeL_1P_2P   included      8.313725e-03    2.425062e-02   -2.435257e-02      2577 (  94.5% )
+---   IonoFreeL_1P_2P    deleted      5.400539e-02    1.239122e-01   -1.228842e-01       151 (   5.5% )
+------------------------------------------------------------------
+E::1000013::Writer Event::Disconnecting TimeDepParmsWriter from file "iter7_Smoother.tdp"
+---------------------------------------------------------------
+   FilterSmootherIteration: performing filter/smoother sweep for 
+      ambres constraint application. 
+---------------------------------------------------------------
+E::1000013::Writer Event::Writing satellite states to file "iter8_forwardFilter.pos".
+E::1000013::Writer Event::Connected TimeDepParmsWriter to file "iter8_forwardFilter.tdp"
+E::0::OK     ::Loading Constraints file constraints.txt
+E::0::OK     ::Loaded Constraints file constraints.txt
+E::1000013::Writer Event::Disconnecting TimeDepParmsWriter from file "iter8_forwardFilter.tdp"
+E::1000013::Writer Event::Writing satellite states to file "iter8_Smoother.pos".
+E::1000013::Writer Event::Connected TimeDepParmsWriter to file "iter8_Smoother.tdp"
+------------------------------------------------------------------
+---   Iteration 8 post-Smoothing residual info:
+------------------------------------------------------------------
+---   included residuals  :      5305 (  97.2% )
+---   deleted residuals   :       151 (   2.8% )
+---      DataType           Status        RMS (m)         Max (m)         Min (m)         number (%) 
+---   IonoFreeC_1P_2P   included      5.939602e-01    2.379548e+00   -2.309681e+00      2728 ( 100.0% )
+---   IonoFreeC_1P_2P    deleted      0.000000e+00    0.000000e+00    0.000000e+00         0 (   0.0% )
+---
+---   IonoFreeL_1P_2P   included      8.383829e-03    2.425433e-02   -2.635746e-02      2577 (  94.5% )
+---   IonoFreeL_1P_2P    deleted      5.387693e-02    1.227248e-01   -1.234809e-01       151 (   5.5% )
+------------------------------------------------------------------
+E::1000013::Writer Event::Disconnecting TimeDepParmsWriter from file "iter8_Smoother.tdp"
+------------------------------------------------------------------
+---      *** FINAL RESIDUAL SUMMARY ***   
+------------------------------------------------------------------
+---   included residuals  :      5305 (  97.2% )
+---   deleted residuals   :       151 (   2.8% )
+---      DataType           Status        RMS (m)         Max (m)         Min (m)         number (%) 
+---   IonoFreeC_1P_2P   included      5.939602e-01    2.379548e+00   -2.309681e+00      2728 ( 100.0% )
+---   IonoFreeC_1P_2P    deleted      0.000000e+00    0.000000e+00    0.000000e+00         0 (   0.0% )
+---
+---   IonoFreeL_1P_2P   included      8.383829e-03    2.425433e-02   -2.635746e-02      2577 (  94.5% )
+---   IonoFreeL_1P_2P    deleted      5.387693e-02    1.227248e-01   -1.234809e-01       151 (   5.5% )
+------------------------------------------------------------------
+   FilterSmootherIteration: file rename:  (iter7_Smoother.pos,preamb_final.pos) 
+   FilterSmootherIteration: file rename:  (iter7_Smoother.tdp,preamb_smooth0_0.tdp) 
+   FilterSmootherIteration: file rename:  (iter7_SmootherPostfitResidual.out,preamb_finalResiduals.out) 
+   FilterSmootherIteration: file rename:  (iter7_SmootherCovariance.cov,preamb_smoothFinal.cov) 
+   FilterSmootherIteration: file rename:  (iter8_Smoother.pos,final.pos) 
+   FilterSmootherIteration: file rename:  (iter8_Smoother.tdp,smooth0_0.tdp) 
+   FilterSmootherIteration: file rename:  (iter8_SmootherPostfitResidual.out,finalResiduals.out) 
+   FilterSmootherIteration: file rename:  (iter8_SmootherCovariance.cov,smoothFinal.cov) 
+E::1000011::Reader Event::Disconnected TimeDepParmsSourcerer from file "GNSSinitValues/GNSS.tdp"
+================================= CpuTime Info =============================
+***
+*** <Main> pool total wallclock time:       0:12.173
+***
+       100.0% :      0:12.173 wc  : Main (1 call)
+                                       0:11.820 user,      0:00.300 system  (  99.6%)
+***
+*** <rtgx> pool total wallclock time:       0:05.841
+***
+        34.5% :      0:02.017 wc  : ModelInterface.compute (288 calls)
+                                       0:01.930 user,      0:00.020 system  (  96.7%)
+        22.9% :      0:01.338 wc  : readInput (1 call)
+                                       0:01.330 user,      0:00.000 system  (  99.4%)
+        21.8% :      0:01.275 wc  : Filter.updateAmbResData (288 calls)
+                                       0:01.350 user,      0:00.020 system  ( 107.5%)
+         6.5% :      0:00.381 wc  : Filter.smooth (1 call)
+                                       0:00.350 user,      0:00.030 system  (  99.8%)
+         4.6% :      0:00.266 wc  : LoadBatch (289 calls)
+                                       0:00.260 user,      0:00.000 system  (  97.8%)
+         3.8% :      0:00.221 wc  : Filter.postfitAnalysis (288 calls)
+                                       0:00.260 user,      0:00.010 system  ( 122.1%)
+         3.1% :      0:00.181 wc  : Filter.update (288 calls)
+                                       0:00.120 user,      0:00.000 system  (  66.3%)
+         2.6% :      0:00.150 wc  : Filter.solution.output (288 calls)
+                                       0:00.130 user,      0:00.000 system  (  86.9%)
+         0.2% :      0:00.011 wc  : Filter.setup (288 calls)
+                                       0:00.000 user,      0:00.000 system  (   0.0%)
+         0.0% :      0:00.002 wc  : integrateSatGroup (288 calls)
+                                       0:00.000 user,      0:00.000 system  (   0.0%)
+         0.0% :      0:00.000 wc  : integrateGrnInertialNav (288 calls)
+                                       0:00.000 user,      0:00.000 system  (   0.0%)
+***
+*** <SrifMpiFilter> pool total wallclock time:       0:02.777
+***
+        81.7% :      0:02.270 wc  : ComputeSigmaCovariance (5184 calls)
+                                       0:02.030 user,      0:00.080 system  (  92.9%)
+         6.4% :      0:00.179 wc  : AssimilateMultProc (2786 calls)
+                                       0:00.140 user,      0:00.000 system  (  78.4%)
+         6.1% :      0:00.169 wc  : stochasticUpdate (2583 calls)
+                                       0:00.170 user,      0:00.010 system  ( 106.7%)
+         5.8% :      0:00.160 wc  : backSubstitute (5184 calls)
+                                       0:00.230 user,      0:00.010 system  ( 150.2%)
+***
+*** <AmbRes> pool total wallclock time:       0:01.299
+***
+        94.4% :      0:01.226 wc  : updateDoubleDifferenceData - scan DD (288 calls)
+                                       0:01.270 user,      0:00.020 system  ( 105.2%)
+         3.1% :      0:00.041 wc  : resolveNarrowlanes (288 calls)
+                                       0:00.110 user,      0:00.000 system  ( 270.7%)
+         1.3% :      0:00.017 wc  : Filter::updateAmbResData, data prep. (288 calls)
+                                       0:00.020 user,      0:00.000 system  ( 119.4%)
+         1.0% :      0:00.013 wc  : checkWidelane (1 call)
+                                       0:00.010 user,      0:00.000 system  (  75.3%)
+         0.1% :      0:00.002 wc  : checkDoubleDifferenceDuration (1 call)
+                                       0:00.000 user,      0:00.000 system  (   0.0%)
+***
+*** <ModelCompute> pool total wallclock time:       0:01.135
+***
+       100.0% :      0:01.135 wc  : model (5522 calls)
+                                       0:01.100 user,      0:00.010 system  (  97.8%)
+***
+*** <model> pool total wallclock time:       0:00.638
+***
+        61.9% :      0:00.395 wc  : LitTim (5476 calls)
+                                       0:00.350 user,      0:00.000 system  (  88.6%)
+        30.4% :      0:00.194 wc  : transmitterState (5542 calls)
+                                       0:00.290 user,      0:00.000 system  ( 149.8%)
+         7.7% :      0:00.049 wc  : receiverState (5542 calls)
+                                       0:00.040 user,      0:00.010 system  ( 101.8%)
+***
+*** <Smoother> pool total wallclock time:       0:00.402
+***
+       100.0% :      0:00.402 wc  : smoothCov (2583 calls)
+                                       0:00.390 user,      0:00.000 system  (  96.9%)
+***
+*** <smoothCov> pool total wallclock time:       0:00.363
+***
+        43.2% :      0:00.157 wc  : CreatePFSC (2583 calls)
+                                       0:00.200 user,      0:00.000 system  ( 127.4%)
+        26.2% :      0:00.095 wc  : FSCAssimilation (2583 calls)
+                                       0:00.100 user,      0:00.000 system  ( 105.3%)
+        20.0% :      0:00.073 wc  : SriAssimilation (2583 calls)
+                                       0:00.050 user,      0:00.000 system  (  68.8%)
+        10.6% :      0:00.038 wc  : LoadCoeff (2583 calls)
+                                       0:00.020 user,      0:00.000 system  (  52.2%)
+***
+*** <AssimilateMP> pool total wallclock time:       0:00.143
+***
+        41.1% :      0:00.059 wc  : ReceiveDerivedCS (5572 calls)
+                                       0:00.040 user,      0:00.000 system  (  68.1%)
+        31.3% :      0:00.045 wc  : DeriveFirstCS (2786 calls)
+                                       0:00.040 user,      0:00.000 system  (  89.2%)
+        13.6% :      0:00.019 wc  : TransformRHS (5572 calls)
+                                       0:00.020 user,      0:00.000 system  ( 102.7%)
+         4.3% :      0:00.006 wc  : prepareAssim (2786 calls)
+                                       0:00.000 user,      0:00.000 system  (   0.0%)
+         3.4% :      0:00.005 wc  : DeriveNextCS (5572 calls)
+                                       0:00.000 user,      0:00.000 system  (   0.0%)
+         3.3% :      0:00.005 wc  : TransformTheRest (5572 calls)
+                                       0:00.000 user,      0:00.000 system  (   0.0%)
+         3.0% :      0:00.004 wc  : TransformNextCS (5572 calls)
+                                       0:00.000 user,      0:00.000 system  (   0.0%)
+***
+*** <LoadBatch> pool total wallclock time:       0:00.128
+***
+       100.0% :      0:00.128 wc  : SendToAllProcs (289 calls)
+                                       0:00.150 user,      0:00.000 system  ( 116.8%)
+***
+*** <StochasticMP> pool total wallclock time:       0:00.085
+***
+        70.6% :      0:00.060 wc  : Triangularization (2583 calls)
+                                       0:00.030 user,      0:00.000 system  (  50.0%)
+        29.4% :      0:00.025 wc  : BatchUpdate (2583 calls)
+                                       0:00.020 user,      0:00.010 system  ( 119.9%)
+***
+*** <AssimilateMP_Waits> pool total wallclock time:       0:00.049
+***
+       100.0% :      0:00.049 wc  : receiveDerivedColumnSection (2786 calls)
+                                       0:00.040 user,      0:00.000 system  (  81.1%)
+============================================================================
+============================================================================

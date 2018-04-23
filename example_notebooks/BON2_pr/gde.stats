@@ -1,0 +1,1010 @@
+  {BON2(1)-GPS41(1)}        C1P TIMEGAP_EVENT        537334320.000           52845.000
+  {BON2(1)-GPS41(1)}        C2P TIMEGAP_EVENT        537334320.000           52845.000
+  {BON2(1)-GPS41(1)}        L1P OUTLIER           OUTLIER_WIDELANE     35
+  {BON2(1)-GPS41(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS41(1)}        L1P NUMBER_OF_ARCS          1 contiguous          2 phasebreaks          2 phasebreaks/arc
+  {BON2(1)-GPS41(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS41(1)}        L1P PHASEBREAK              IONOSPHERE      2 
+  {BON2(1)-GPS41(1)}        L1P TIMEGAP_EVENT        537334320.000           52845.000
+  {BON2(1)-GPS41(1)}        L2P OUTLIER           OUTLIER_WIDELANE     35
+  {BON2(1)-GPS41(1)}        L2P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS41(1)}        L2P NUMBER_OF_ARCS          1 contiguous          2 phasebreaks          2 phasebreaks/arc
+  {BON2(1)-GPS41(1)}        L2P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS41(1)}        L2P PHASEBREAK              IONOSPHERE      2 
+  {BON2(1)-GPS41(1)}        L2P TIMEGAP_EVENT        537334320.000           52845.000
+
+
+  {BON2(1)-GPS43(1)}        C1P TIMEGAP_EVENT        537300060.000            2520.000
+  {BON2(1)-GPS43(1)}        C1P TIMEGAP_EVENT        537313260.000           12015.000
+  {BON2(1)-GPS43(1)}        C2P TIMEGAP_EVENT        537300060.000            2520.000
+  {BON2(1)-GPS43(1)}        C2P TIMEGAP_EVENT        537313260.000           12015.000
+  {BON2(1)-GPS43(1)}        L1P OUTLIER           OUTLIER_WIDELANE     19
+  {BON2(1)-GPS43(1)}        L1P OUTLIER         OUTLIER_IONOSPHERE     88
+  {BON2(1)-GPS43(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      4
+  {BON2(1)-GPS43(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS43(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS43(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS43(1)}        L1P TIMEGAP_EVENT        537300060.000            2520.000
+  {BON2(1)-GPS43(1)}        L1P TIMEGAP_EVENT        537313260.000           12015.000
+  {BON2(1)-GPS43(1)}        L2P OUTLIER           OUTLIER_WIDELANE     19
+  {BON2(1)-GPS43(1)}        L2P OUTLIER         OUTLIER_IONOSPHERE     88
+  {BON2(1)-GPS43(1)}        L2P OUTLIER         OUTLIER_NARROWLANE      3
+  {BON2(1)-GPS43(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS43(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS43(1)}        L2P TIMEGAP_EVENT        537300060.000            2520.000
+  {BON2(1)-GPS43(1)}        L2P TIMEGAP_EVENT        537313260.000           12015.000
+
+
+  {BON2(1)-GPS44(1)}        L1P OUTLIER           OUTLIER_WIDELANE     37
+  {BON2(1)-GPS44(1)}        L1P OUTLIER         OUTLIER_NARROWLANE     14
+  {BON2(1)-GPS44(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS44(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS44(1)}        L1P PHASEBREAK     NARROWLANE_RESIDUAL      1 
+  {BON2(1)-GPS44(1)}        L2P OUTLIER           OUTLIER_WIDELANE     37
+  {BON2(1)-GPS44(1)}        L2P OUTLIER         OUTLIER_NARROWLANE     12
+  {BON2(1)-GPS44(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS44(1)}        L2P PHASEBREAK     NARROWLANE_RESIDUAL      1 
+
+
+  {BON2(1)-GPS45(1)}        L1P OUTLIER           OUTLIER_WIDELANE      9
+  {BON2(1)-GPS45(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS45(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS45(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS45(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS45(1)}        L2P OUTLIER           OUTLIER_WIDELANE      9
+  {BON2(1)-GPS45(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS45(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+
+
+  {BON2(1)-GPS46(1)}        L1P OUTLIER           OUTLIER_WIDELANE     21
+  {BON2(1)-GPS46(1)}        L1P OUTLIER         OUTLIER_IONOSPHERE     25
+  {BON2(1)-GPS46(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      2
+  {BON2(1)-GPS46(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS46(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS46(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS46(1)}        L2P OUTLIER           OUTLIER_WIDELANE     20
+  {BON2(1)-GPS46(1)}        L2P OUTLIER         OUTLIER_IONOSPHERE     25
+  {BON2(1)-GPS46(1)}        L2P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS46(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS46(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+
+
+  {BON2(1)-GPS47(1)}        C1P TIMEGAP_EVENT        537288735.000            2040.000
+  {BON2(1)-GPS47(1)}        C1P TIMEGAP_EVENT        537351525.000           48900.000
+  {BON2(1)-GPS47(1)}        C2P TIMEGAP_EVENT        537288735.000            2040.000
+  {BON2(1)-GPS47(1)}        C2P TIMEGAP_EVENT        537351525.000           48900.000
+  {BON2(1)-GPS47(1)}        L1P OUTLIER           OUTLIER_WIDELANE     62
+  {BON2(1)-GPS47(1)}        L1P NUMBER_OF_ARCS          1 contiguous          3 phasebreaks          3 phasebreaks/arc
+  {BON2(1)-GPS47(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS47(1)}        L1P PHASEBREAK              IONOSPHERE      3 
+  {BON2(1)-GPS47(1)}        L1P TIMEGAP_EVENT        537288735.000            2040.000
+  {BON2(1)-GPS47(1)}        L1P TIMEGAP_EVENT        537351525.000           48900.000
+  {BON2(1)-GPS47(1)}        L2P OUTLIER           OUTLIER_WIDELANE     62
+  {BON2(1)-GPS47(1)}        L2P NUMBER_OF_ARCS          1 contiguous          3 phasebreaks          3 phasebreaks/arc
+  {BON2(1)-GPS47(1)}        L2P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS47(1)}        L2P PHASEBREAK              IONOSPHERE      3 
+  {BON2(1)-GPS47(1)}        L2P TIMEGAP_EVENT        537288735.000            2040.000
+  {BON2(1)-GPS47(1)}        L2P TIMEGAP_EVENT        537351525.000           48900.000
+
+
+  {BON2(1)-GPS48(1)}        L1P OUTLIER           OUTLIER_WIDELANE      3
+  {BON2(1)-GPS48(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS48(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS48(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS48(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS48(1)}        L2P OUTLIER           OUTLIER_WIDELANE      3
+  {BON2(1)-GPS48(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS48(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+
+
+  {BON2(1)-GPS50(1)}        L1P OUTLIER           OUTLIER_WIDELANE     40
+  {BON2(1)-GPS50(1)}        L1P OUTLIER         OUTLIER_IONOSPHERE     28
+  {BON2(1)-GPS50(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      2
+  {BON2(1)-GPS50(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS50(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS50(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS50(1)}        L2P OUTLIER           OUTLIER_WIDELANE     39
+  {BON2(1)-GPS50(1)}        L2P OUTLIER         OUTLIER_IONOSPHERE     28
+  {BON2(1)-GPS50(1)}        L2P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS50(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS50(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+
+
+  {BON2(1)-GPS51(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS51(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS51(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS51(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS51(1)}        L2P No Outliers Found
+  {BON2(1)-GPS51(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS51(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+
+
+  {BON2(1)-GPS52(1)}        C1P TIMEGAP_EVENT        537339150.000           56415.000
+  {BON2(1)-GPS52(1)}        C2P TIMEGAP_EVENT        537339150.000           56415.000
+  {BON2(1)-GPS52(1)}        L1P OUTLIER           OUTLIER_WIDELANE     16
+  {BON2(1)-GPS52(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS52(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS52(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS52(1)}        L1P TIMEGAP_EVENT        537339150.000           56415.000
+  {BON2(1)-GPS52(1)}        L2P OUTLIER           OUTLIER_WIDELANE     16
+  {BON2(1)-GPS52(1)}        L2P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS52(1)}        L2P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS52(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS52(1)}        L2P TIMEGAP_EVENT        537339150.000           56415.000
+
+
+  {BON2(1)-GPS53(1)}        L1P OUTLIER           OUTLIER_WIDELANE     59
+  {BON2(1)-GPS53(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS53(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS53(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS53(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS53(1)}        L2P OUTLIER           OUTLIER_WIDELANE     52
+  {BON2(1)-GPS53(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS53(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+
+
+  {BON2(1)-GPS54(1)}        L1P OUTLIER           OUTLIER_WIDELANE     55
+  {BON2(1)-GPS54(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS54(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS54(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS54(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS54(1)}        L2P OUTLIER           OUTLIER_WIDELANE     55
+  {BON2(1)-GPS54(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS54(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+
+
+  {BON2(1)-GPS55(1)}        L1P OUTLIER           OUTLIER_WIDELANE      2
+  {BON2(1)-GPS55(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS55(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS55(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS55(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS55(1)}        L2P OUTLIER           OUTLIER_WIDELANE      2
+  {BON2(1)-GPS55(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS55(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+
+
+  {BON2(1)-GPS56(1)}        C1P TIMEGAP_EVENT        537350340.000           66030.000
+  {BON2(1)-GPS56(1)}        C2P TIMEGAP_EVENT        537350340.000           66030.000
+  {BON2(1)-GPS56(1)}        L1P No Outliers Found
+  {BON2(1)-GPS56(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS56(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS56(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS56(1)}        L1P TIMEGAP_EVENT        537350340.000           66030.000
+  {BON2(1)-GPS56(1)}        L2P No Outliers Found
+  {BON2(1)-GPS56(1)}        L2P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS56(1)}        L2P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS56(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS56(1)}        L2P TIMEGAP_EVENT        537350340.000           66030.000
+
+
+  {BON2(1)-GPS57(1)}        L1P OUTLIER           OUTLIER_WIDELANE      7
+  {BON2(1)-GPS57(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS57(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS57(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS57(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS57(1)}        L2P OUTLIER           OUTLIER_WIDELANE      7
+  {BON2(1)-GPS57(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS57(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+
+
+  {BON2(1)-GPS58(1)}        C1P TIMEGAP_EVENT        537333855.000            2700.000
+  {BON2(1)-GPS58(1)}        C2P TIMEGAP_EVENT        537333855.000            2700.000
+  {BON2(1)-GPS58(1)}        L1P OUTLIER           OUTLIER_WIDELANE     44
+  {BON2(1)-GPS58(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS58(1)}        L1P NUMBER_OF_ARCS          1 contiguous          4 phasebreaks          4 phasebreaks/arc
+  {BON2(1)-GPS58(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS58(1)}        L1P PHASEBREAK              IONOSPHERE      4 
+  {BON2(1)-GPS58(1)}        L1P TIMEGAP_EVENT        537333855.000            2700.000
+  {BON2(1)-GPS58(1)}        L2P OUTLIER           OUTLIER_WIDELANE     44
+  {BON2(1)-GPS58(1)}        L2P NUMBER_OF_ARCS          1 contiguous          3 phasebreaks          3 phasebreaks/arc
+  {BON2(1)-GPS58(1)}        L2P PHASEBREAK              IONOSPHERE      4 
+  {BON2(1)-GPS58(1)}        L2P TIMEGAP_EVENT        537333855.000            2700.000
+
+
+  {BON2(1)-GPS59(1)}        L1P OUTLIER           OUTLIER_WIDELANE     11
+  {BON2(1)-GPS59(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS59(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS59(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS59(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS59(1)}        L2P OUTLIER           OUTLIER_WIDELANE     11
+  {BON2(1)-GPS59(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS59(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+
+
+  {BON2(1)-GPS60(1)}        C1P TIMEGAP_EVENT        537358800.000           65280.000
+  {BON2(1)-GPS60(1)}        C2P TIMEGAP_EVENT        537358800.000           65280.000
+  {BON2(1)-GPS60(1)}        L1P OUTLIER           OUTLIER_WIDELANE     13
+  {BON2(1)-GPS60(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      6
+  {BON2(1)-GPS60(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS60(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS60(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS60(1)}        L1P TIMEGAP_EVENT        537358800.000           65280.000
+  {BON2(1)-GPS60(1)}        L2P OUTLIER           OUTLIER_WIDELANE     13
+  {BON2(1)-GPS60(1)}        L2P OUTLIER         OUTLIER_NARROWLANE      6
+  {BON2(1)-GPS60(1)}        L2P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS60(1)}        L2P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS60(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS60(1)}        L2P TIMEGAP_EVENT        537358800.000           65280.000
+
+
+  {BON2(1)-GPS61(1)}        L1P OUTLIER           OUTLIER_WIDELANE     43
+  {BON2(1)-GPS61(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS61(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS61(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS61(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS61(1)}        L2P OUTLIER           OUTLIER_WIDELANE     43
+  {BON2(1)-GPS61(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS61(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+
+
+  {BON2(1)-GPS62(1)}        C1P TIMEGAP_EVENT        537334395.000            3480.000
+  {BON2(1)-GPS62(1)}        C2P TIMEGAP_EVENT        537334395.000            3480.000
+  {BON2(1)-GPS62(1)}        L1P OUTLIER           OUTLIER_WIDELANE     27
+  {BON2(1)-GPS62(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS62(1)}        L1P NUMBER_OF_ARCS          1 contiguous          3 phasebreaks          3 phasebreaks/arc
+  {BON2(1)-GPS62(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS62(1)}        L1P PHASEBREAK              IONOSPHERE      3 
+  {BON2(1)-GPS62(1)}        L1P TIMEGAP_EVENT        537334395.000            3480.000
+  {BON2(1)-GPS62(1)}        L2P OUTLIER           OUTLIER_WIDELANE     27
+  {BON2(1)-GPS62(1)}        L2P NUMBER_OF_ARCS          1 contiguous          2 phasebreaks          2 phasebreaks/arc
+  {BON2(1)-GPS62(1)}        L2P PHASEBREAK              IONOSPHERE      3 
+  {BON2(1)-GPS62(1)}        L2P TIMEGAP_EVENT        537334395.000            3480.000
+
+
+  {BON2(1)-GPS63(1)}        C1P TIMEGAP_EVENT        537351810.000           50385.000
+  {BON2(1)-GPS63(1)}        C1P TIMEGAP_EVENT        537360180.000            1905.000
+  {BON2(1)-GPS63(1)}        C2P TIMEGAP_EVENT        537351810.000           50385.000
+  {BON2(1)-GPS63(1)}        C2P TIMEGAP_EVENT        537360180.000            1905.000
+  {BON2(1)-GPS63(1)}        L1P OUTLIER           OUTLIER_WIDELANE     19
+  {BON2(1)-GPS63(1)}        L1P OUTLIER         OUTLIER_NARROWLANE     76
+  {BON2(1)-GPS63(1)}        L1P NUMBER_OF_ARCS          1 contiguous          3 phasebreaks          3 phasebreaks/arc
+  {BON2(1)-GPS63(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS63(1)}        L1P PHASEBREAK     NARROWLANE_RESIDUAL      1 
+  {BON2(1)-GPS63(1)}        L1P PHASEBREAK              IONOSPHERE      2 
+  {BON2(1)-GPS63(1)}        L1P TIMEGAP_EVENT        537351810.000           50385.000
+  {BON2(1)-GPS63(1)}        L1P TIMEGAP_EVENT        537360180.000            1905.000
+  {BON2(1)-GPS63(1)}        L2P OUTLIER           OUTLIER_WIDELANE     19
+  {BON2(1)-GPS63(1)}        L2P OUTLIER         OUTLIER_NARROWLANE     75
+  {BON2(1)-GPS63(1)}        L2P NUMBER_OF_ARCS          1 contiguous          2 phasebreaks          2 phasebreaks/arc
+  {BON2(1)-GPS63(1)}        L2P PHASEBREAK     NARROWLANE_RESIDUAL      1 
+  {BON2(1)-GPS63(1)}        L2P PHASEBREAK              IONOSPHERE      2 
+  {BON2(1)-GPS63(1)}        L2P TIMEGAP_EVENT        537351810.000           50385.000
+  {BON2(1)-GPS63(1)}        L2P TIMEGAP_EVENT        537360180.000            1905.000
+
+
+  {BON2(1)-GPS64(1)}        L1P OUTLIER           OUTLIER_WIDELANE      1
+  {BON2(1)-GPS64(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS64(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS64(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS64(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS64(1)}        L2P OUTLIER           OUTLIER_WIDELANE      1
+  {BON2(1)-GPS64(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS64(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+
+
+  {BON2(1)-GPS65(1)}        C1P TIMEGAP_EVENT        537323220.000            3915.000
+  {BON2(1)-GPS65(1)}        C2P TIMEGAP_EVENT        537323220.000            3915.000
+  {BON2(1)-GPS65(1)}        L1P OUTLIER           OUTLIER_WIDELANE     20
+  {BON2(1)-GPS65(1)}        L1P OUTLIER         OUTLIER_NARROWLANE     13
+  {BON2(1)-GPS65(1)}        L1P NUMBER_OF_ARCS          1 contiguous          4 phasebreaks          4 phasebreaks/arc
+  {BON2(1)-GPS65(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS65(1)}        L1P PHASEBREAK     NARROWLANE_RESIDUAL      1 
+  {BON2(1)-GPS65(1)}        L1P PHASEBREAK              IONOSPHERE      3 
+  {BON2(1)-GPS65(1)}        L1P TIMEGAP_EVENT        537323220.000            3915.000
+  {BON2(1)-GPS65(1)}        L2P OUTLIER           OUTLIER_WIDELANE     20
+  {BON2(1)-GPS65(1)}        L2P OUTLIER         OUTLIER_NARROWLANE     11
+  {BON2(1)-GPS65(1)}        L2P NUMBER_OF_ARCS          1 contiguous          3 phasebreaks          3 phasebreaks/arc
+  {BON2(1)-GPS65(1)}        L2P PHASEBREAK     NARROWLANE_RESIDUAL      1 
+  {BON2(1)-GPS65(1)}        L2P PHASEBREAK              IONOSPHERE      3 
+  {BON2(1)-GPS65(1)}        L2P TIMEGAP_EVENT        537323220.000            3915.000
+
+
+  {BON2(1)-GPS66(1)}        C1P TIMEGAP_EVENT        537341160.000           52800.000
+  {BON2(1)-GPS66(1)}        C1P TIMEGAP_EVENT        537354840.000           12375.000
+  {BON2(1)-GPS66(1)}        C2P TIMEGAP_EVENT        537341160.000           52800.000
+  {BON2(1)-GPS66(1)}        C2P TIMEGAP_EVENT        537354840.000           12375.000
+  {BON2(1)-GPS66(1)}        L1P OUTLIER           OUTLIER_WIDELANE     69
+  {BON2(1)-GPS66(1)}        L1P OUTLIER         OUTLIER_IONOSPHERE     32
+  {BON2(1)-GPS66(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS66(1)}        L1P NUMBER_OF_ARCS          1 contiguous          2 phasebreaks          2 phasebreaks/arc
+  {BON2(1)-GPS66(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS66(1)}        L1P PHASEBREAK              IONOSPHERE      2 
+  {BON2(1)-GPS66(1)}        L1P TIMEGAP_EVENT        537341160.000           52800.000
+  {BON2(1)-GPS66(1)}        L1P TIMEGAP_EVENT        537354840.000           12375.000
+  {BON2(1)-GPS66(1)}        L2P OUTLIER           OUTLIER_WIDELANE     66
+  {BON2(1)-GPS66(1)}        L2P OUTLIER         OUTLIER_IONOSPHERE     32
+  {BON2(1)-GPS66(1)}        L2P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS66(1)}        L2P NUMBER_OF_ARCS          1 contiguous          2 phasebreaks          2 phasebreaks/arc
+  {BON2(1)-GPS66(1)}        L2P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS66(1)}        L2P PHASEBREAK              IONOSPHERE      2 
+  {BON2(1)-GPS66(1)}        L2P TIMEGAP_EVENT        537341160.000           52800.000
+  {BON2(1)-GPS66(1)}        L2P TIMEGAP_EVENT        537354840.000           12375.000
+
+
+  {BON2(1)-GPS67(1)}        L1P OUTLIER           OUTLIER_WIDELANE      8
+  {BON2(1)-GPS67(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS67(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS67(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS67(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS67(1)}        L2P OUTLIER           OUTLIER_WIDELANE      8
+  {BON2(1)-GPS67(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS67(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+
+
+  {BON2(1)-GPS68(1)}        C1P TIMEGAP_EVENT        537302010.000            3180.000
+  {BON2(1)-GPS68(1)}        C1P TIMEGAP_EVENT        537305775.000            1425.000
+  {BON2(1)-GPS68(1)}        C2P TIMEGAP_EVENT        537302010.000            3180.000
+  {BON2(1)-GPS68(1)}        C2P TIMEGAP_EVENT        537305775.000            1425.000
+  {BON2(1)-GPS68(1)}        L1P OUTLIER           OUTLIER_WIDELANE    135
+  {BON2(1)-GPS68(1)}        L1P OUTLIER         OUTLIER_IONOSPHERE     79
+  {BON2(1)-GPS68(1)}        L1P OUTLIER         OUTLIER_NARROWLANE     16
+  {BON2(1)-GPS68(1)}        L1P NUMBER_OF_ARCS          2 contiguous          2 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS68(1)}        L1P PHASEBREAK                 TIMEGAP      2 
+  {BON2(1)-GPS68(1)}        L1P PHASEBREAK              IONOSPHERE      2 
+  {BON2(1)-GPS68(1)}        L1P TIMEGAP_EVENT        537302010.000            3180.000
+  {BON2(1)-GPS68(1)}        L1P TIMEGAP_EVENT        537305775.000            1425.000
+  {BON2(1)-GPS68(1)}        L2P OUTLIER           OUTLIER_WIDELANE    118
+  {BON2(1)-GPS68(1)}        L2P OUTLIER         OUTLIER_IONOSPHERE     78
+  {BON2(1)-GPS68(1)}        L2P OUTLIER         OUTLIER_NARROWLANE     14
+  {BON2(1)-GPS68(1)}        L2P NUMBER_OF_ARCS          1 contiguous          2 phasebreaks          2 phasebreaks/arc
+  {BON2(1)-GPS68(1)}        L2P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS68(1)}        L2P PHASEBREAK              IONOSPHERE      2 
+  {BON2(1)-GPS68(1)}        L2P TIMEGAP_EVENT        537302010.000            3180.000
+  {BON2(1)-GPS68(1)}        L2P TIMEGAP_EVENT        537305775.000            1425.000
+
+
+  {BON2(1)-GPS69(1)}        C1P TIMEGAP_EVENT        537291195.000            2670.000
+  {BON2(1)-GPS69(1)}        C1P TIMEGAP_EVENT        537354195.000           49080.000
+  {BON2(1)-GPS69(1)}        C2P TIMEGAP_EVENT        537291195.000            2670.000
+  {BON2(1)-GPS69(1)}        C2P TIMEGAP_EVENT        537354195.000           49080.000
+  {BON2(1)-GPS69(1)}        L1P OUTLIER           OUTLIER_WIDELANE     37
+  {BON2(1)-GPS69(1)}        L1P OUTLIER         OUTLIER_IONOSPHERE     70
+  {BON2(1)-GPS69(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS69(1)}        L1P NUMBER_OF_ARCS          1 contiguous          4 phasebreaks          4 phasebreaks/arc
+  {BON2(1)-GPS69(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS69(1)}        L1P PHASEBREAK              IONOSPHERE      4 
+  {BON2(1)-GPS69(1)}        L1P TIMEGAP_EVENT        537291195.000            2670.000
+  {BON2(1)-GPS69(1)}        L1P TIMEGAP_EVENT        537354195.000           49080.000
+  {BON2(1)-GPS69(1)}        L2P OUTLIER           OUTLIER_WIDELANE     35
+  {BON2(1)-GPS69(1)}        L2P OUTLIER         OUTLIER_IONOSPHERE     68
+  {BON2(1)-GPS69(1)}        L2P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS69(1)}        L2P NUMBER_OF_ARCS          1 contiguous          4 phasebreaks          4 phasebreaks/arc
+  {BON2(1)-GPS69(1)}        L2P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS69(1)}        L2P PHASEBREAK              IONOSPHERE      4 
+  {BON2(1)-GPS69(1)}        L2P TIMEGAP_EVENT        537291195.000            2670.000
+  {BON2(1)-GPS69(1)}        L2P TIMEGAP_EVENT        537354195.000           49080.000
+
+
+  {BON2(1)-GPS70(1)}        C1P TIMEGAP_EVENT        537330435.000           52035.000
+  {BON2(1)-GPS70(1)}        C2P TIMEGAP_EVENT        537330435.000           52035.000
+  {BON2(1)-GPS70(1)}        L1P OUTLIER           OUTLIER_WIDELANE     46
+  {BON2(1)-GPS70(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS70(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS70(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS70(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS70(1)}        L1P TIMEGAP_EVENT        537330435.000           52035.000
+  {BON2(1)-GPS70(1)}        L2P OUTLIER           OUTLIER_WIDELANE     43
+  {BON2(1)-GPS70(1)}        L2P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS70(1)}        L2P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS70(1)}        L2P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS70(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS70(1)}        L2P TIMEGAP_EVENT        537330435.000           52035.000
+
+
+  {BON2(1)-GPS71(1)}        C1P TIMEGAP_EVENT        537346695.000           66525.000
+  {BON2(1)-GPS71(1)}        C2P TIMEGAP_EVENT        537346695.000           66525.000
+  {BON2(1)-GPS71(1)}        L1P OUTLIER           OUTLIER_WIDELANE     16
+  {BON2(1)-GPS71(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS71(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS71(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS71(1)}        L1P TIMEGAP_EVENT        537346695.000           66525.000
+  {BON2(1)-GPS71(1)}        L2P OUTLIER           OUTLIER_WIDELANE     16
+  {BON2(1)-GPS71(1)}        L2P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS71(1)}        L2P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS71(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS71(1)}        L2P TIMEGAP_EVENT        537346695.000           66525.000
+
+
+  {BON2(1)-GPS72(1)}        C1P TIMEGAP_EVENT        537360690.000           66465.000
+  {BON2(1)-GPS72(1)}        C2P TIMEGAP_EVENT        537360690.000           66465.000
+  {BON2(1)-GPS72(1)}        L1P OUTLIER           OUTLIER_WIDELANE      1
+  {BON2(1)-GPS72(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS72(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS72(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS72(1)}        L1P TIMEGAP_EVENT        537360690.000           66465.000
+  {BON2(1)-GPS72(1)}        L2P OUTLIER           OUTLIER_WIDELANE      1
+  {BON2(1)-GPS72(1)}        L2P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS72(1)}        L2P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS72(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS72(1)}        L2P TIMEGAP_EVENT        537360690.000           66465.000
+
+
+  {BON2(1)-GPS73(1)}        C1P TIMEGAP_EVENT        537333210.000            3465.000
+  {BON2(1)-GPS73(1)}        C2P TIMEGAP_EVENT        537333210.000            3465.000
+  {BON2(1)-GPS73(1)}        L1P OUTLIER           OUTLIER_WIDELANE      8
+  {BON2(1)-GPS73(1)}        L1P OUTLIER         OUTLIER_IONOSPHERE     41
+  {BON2(1)-GPS73(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      3
+  {BON2(1)-GPS73(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS73(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS73(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS73(1)}        L1P TIMEGAP_EVENT        537333210.000            3465.000
+  {BON2(1)-GPS73(1)}        L2P OUTLIER           OUTLIER_WIDELANE      8
+  {BON2(1)-GPS73(1)}        L2P OUTLIER         OUTLIER_IONOSPHERE     41
+  {BON2(1)-GPS73(1)}        L2P OUTLIER         OUTLIER_NARROWLANE      2
+  {BON2(1)-GPS73(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS73(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS73(1)}        L2P TIMEGAP_EVENT        537333210.000            3465.000
+
+
+------------------
+------------------
+Final GDE statistics: 
+
+  {BON2(1)-GPS41(1)}        C1P TIMEGAP_EVENT        537334320.000           52845.000
+  {BON2(1)-GPS41(1)}        C2P TIMEGAP_EVENT        537334320.000           52845.000
+  {BON2(1)-GPS41(1)}        L1P OUTLIER           OUTLIER_WIDELANE     35
+  {BON2(1)-GPS41(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS41(1)}        L1P NUMBER_OF_ARCS          1 contiguous          2 phasebreaks          2 phasebreaks/arc
+  {BON2(1)-GPS41(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS41(1)}        L1P PHASEBREAK              IONOSPHERE      2 
+  {BON2(1)-GPS41(1)}        L1P TIMEGAP_EVENT        537334320.000           52845.000
+  {BON2(1)-GPS41(1)}        L2P OUTLIER           OUTLIER_WIDELANE     35
+  {BON2(1)-GPS41(1)}        L2P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS41(1)}        L2P NUMBER_OF_ARCS          1 contiguous          2 phasebreaks          2 phasebreaks/arc
+  {BON2(1)-GPS41(1)}        L2P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS41(1)}        L2P PHASEBREAK              IONOSPHERE      2 
+  {BON2(1)-GPS41(1)}        L2P TIMEGAP_EVENT        537334320.000           52845.000
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS41(1)}
+  {BON2(1)-GPS41(1)}        L1P N:      2 S.D.:   323.0 Max:   507.8 Min:    51.0 Mean:   279.4 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS41(1)}        L2P N:      2 S.D.:   323.0 Max:   507.8 Min:    51.0 Mean:   279.4 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS43(1)}        C1P TIMEGAP_EVENT        537300060.000            2520.000
+  {BON2(1)-GPS43(1)}        C1P TIMEGAP_EVENT        537313260.000           12015.000
+  {BON2(1)-GPS43(1)}        C2P TIMEGAP_EVENT        537300060.000            2520.000
+  {BON2(1)-GPS43(1)}        C2P TIMEGAP_EVENT        537313260.000           12015.000
+  {BON2(1)-GPS43(1)}        L1P OUTLIER           OUTLIER_WIDELANE     19
+  {BON2(1)-GPS43(1)}        L1P OUTLIER         OUTLIER_IONOSPHERE     88
+  {BON2(1)-GPS43(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      4
+  {BON2(1)-GPS43(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS43(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS43(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS43(1)}        L1P TIMEGAP_EVENT        537300060.000            2520.000
+  {BON2(1)-GPS43(1)}        L1P TIMEGAP_EVENT        537313260.000           12015.000
+  {BON2(1)-GPS43(1)}        L2P OUTLIER           OUTLIER_WIDELANE     19
+  {BON2(1)-GPS43(1)}        L2P OUTLIER         OUTLIER_IONOSPHERE     88
+  {BON2(1)-GPS43(1)}        L2P OUTLIER         OUTLIER_NARROWLANE      3
+  {BON2(1)-GPS43(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS43(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS43(1)}        L2P TIMEGAP_EVENT        537300060.000            2520.000
+  {BON2(1)-GPS43(1)}        L2P TIMEGAP_EVENT        537313260.000           12015.000
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS43(1)}
+  {BON2(1)-GPS43(1)}        L1P N:      1 S.D.:     0.0 Max:   321.0 Min:   321.0 Mean:   321.0 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS43(1)}        L2P N:      1 S.D.:     0.0 Max:   321.0 Min:   321.0 Mean:   321.0 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS44(1)}        L1P OUTLIER           OUTLIER_WIDELANE     37
+  {BON2(1)-GPS44(1)}        L1P OUTLIER         OUTLIER_NARROWLANE     14
+  {BON2(1)-GPS44(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS44(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS44(1)}        L1P PHASEBREAK     NARROWLANE_RESIDUAL      1 
+  {BON2(1)-GPS44(1)}        L2P OUTLIER           OUTLIER_WIDELANE     37
+  {BON2(1)-GPS44(1)}        L2P OUTLIER         OUTLIER_NARROWLANE     12
+  {BON2(1)-GPS44(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS44(1)}        L2P PHASEBREAK     NARROWLANE_RESIDUAL      1 
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS44(1)}
+  {BON2(1)-GPS44(1)}        L1P N:      1 S.D.:     0.0 Max:   499.8 Min:   499.8 Mean:   499.8 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS44(1)}        L2P N:      1 S.D.:     0.0 Max:   499.8 Min:   499.8 Mean:   499.8 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS45(1)}        L1P OUTLIER           OUTLIER_WIDELANE      9
+  {BON2(1)-GPS45(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS45(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS45(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS45(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS45(1)}        L2P OUTLIER           OUTLIER_WIDELANE      9
+  {BON2(1)-GPS45(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS45(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS45(1)}
+  {BON2(1)-GPS45(1)}        L1P N:      1 S.D.:     0.0 Max:   353.2 Min:   353.2 Mean:   353.2 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS45(1)}        L2P N:      1 S.D.:     0.0 Max:   353.2 Min:   353.2 Mean:   353.2 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS46(1)}        L1P OUTLIER           OUTLIER_WIDELANE     21
+  {BON2(1)-GPS46(1)}        L1P OUTLIER         OUTLIER_IONOSPHERE     25
+  {BON2(1)-GPS46(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      2
+  {BON2(1)-GPS46(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS46(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS46(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS46(1)}        L2P OUTLIER           OUTLIER_WIDELANE     20
+  {BON2(1)-GPS46(1)}        L2P OUTLIER         OUTLIER_IONOSPHERE     25
+  {BON2(1)-GPS46(1)}        L2P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS46(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS46(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS46(1)}
+  {BON2(1)-GPS46(1)}        L1P N:      1 S.D.:     0.0 Max:   313.8 Min:   313.8 Mean:   313.8 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS46(1)}        L2P N:      1 S.D.:     0.0 Max:   313.8 Min:   313.8 Mean:   313.8 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS47(1)}        C1P TIMEGAP_EVENT        537288735.000            2040.000
+  {BON2(1)-GPS47(1)}        C1P TIMEGAP_EVENT        537351525.000           48900.000
+  {BON2(1)-GPS47(1)}        C2P TIMEGAP_EVENT        537288735.000            2040.000
+  {BON2(1)-GPS47(1)}        C2P TIMEGAP_EVENT        537351525.000           48900.000
+  {BON2(1)-GPS47(1)}        L1P OUTLIER           OUTLIER_WIDELANE     62
+  {BON2(1)-GPS47(1)}        L1P NUMBER_OF_ARCS          1 contiguous          3 phasebreaks          3 phasebreaks/arc
+  {BON2(1)-GPS47(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS47(1)}        L1P PHASEBREAK              IONOSPHERE      3 
+  {BON2(1)-GPS47(1)}        L1P TIMEGAP_EVENT        537288735.000            2040.000
+  {BON2(1)-GPS47(1)}        L1P TIMEGAP_EVENT        537351525.000           48900.000
+  {BON2(1)-GPS47(1)}        L2P OUTLIER           OUTLIER_WIDELANE     62
+  {BON2(1)-GPS47(1)}        L2P NUMBER_OF_ARCS          1 contiguous          3 phasebreaks          3 phasebreaks/arc
+  {BON2(1)-GPS47(1)}        L2P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS47(1)}        L2P PHASEBREAK              IONOSPHERE      3 
+  {BON2(1)-GPS47(1)}        L2P TIMEGAP_EVENT        537288735.000            2040.000
+  {BON2(1)-GPS47(1)}        L2P TIMEGAP_EVENT        537351525.000           48900.000
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS47(1)}
+  {BON2(1)-GPS47(1)}        L1P N:      4 S.D.:    70.8 Max:   221.0 Min:    51.0 Mean:   143.8 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS47(1)}        L2P N:      4 S.D.:    70.8 Max:   221.0 Min:    51.0 Mean:   143.8 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS48(1)}        L1P OUTLIER           OUTLIER_WIDELANE      3
+  {BON2(1)-GPS48(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS48(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS48(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS48(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS48(1)}        L2P OUTLIER           OUTLIER_WIDELANE      3
+  {BON2(1)-GPS48(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS48(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS48(1)}
+  {BON2(1)-GPS48(1)}        L1P N:      1 S.D.:     0.0 Max:   370.5 Min:   370.5 Mean:   370.5 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS48(1)}        L2P N:      1 S.D.:     0.0 Max:   370.5 Min:   370.5 Mean:   370.5 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS50(1)}        L1P OUTLIER           OUTLIER_WIDELANE     40
+  {BON2(1)-GPS50(1)}        L1P OUTLIER         OUTLIER_IONOSPHERE     28
+  {BON2(1)-GPS50(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      2
+  {BON2(1)-GPS50(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS50(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS50(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS50(1)}        L2P OUTLIER           OUTLIER_WIDELANE     39
+  {BON2(1)-GPS50(1)}        L2P OUTLIER         OUTLIER_IONOSPHERE     28
+  {BON2(1)-GPS50(1)}        L2P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS50(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS50(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS50(1)}
+  {BON2(1)-GPS50(1)}        L1P N:      1 S.D.:     0.0 Max:   371.0 Min:   371.0 Mean:   371.0 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS50(1)}        L2P N:      1 S.D.:     0.0 Max:   371.0 Min:   371.0 Mean:   371.0 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS51(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS51(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS51(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS51(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS51(1)}        L2P No Outliers Found
+  {BON2(1)-GPS51(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS51(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS51(1)}
+  {BON2(1)-GPS51(1)}        L1P N:      1 S.D.:     0.0 Max:   538.5 Min:   538.5 Mean:   538.5 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS51(1)}        L2P N:      1 S.D.:     0.0 Max:   538.5 Min:   538.5 Mean:   538.5 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS52(1)}        C1P TIMEGAP_EVENT        537339150.000           56415.000
+  {BON2(1)-GPS52(1)}        C2P TIMEGAP_EVENT        537339150.000           56415.000
+  {BON2(1)-GPS52(1)}        L1P OUTLIER           OUTLIER_WIDELANE     16
+  {BON2(1)-GPS52(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS52(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS52(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS52(1)}        L1P TIMEGAP_EVENT        537339150.000           56415.000
+  {BON2(1)-GPS52(1)}        L2P OUTLIER           OUTLIER_WIDELANE     16
+  {BON2(1)-GPS52(1)}        L2P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS52(1)}        L2P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS52(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS52(1)}        L2P TIMEGAP_EVENT        537339150.000           56415.000
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS52(1)}
+  {BON2(1)-GPS52(1)}        L1P N:      2 S.D.:   251.0 Max:   427.2 Min:    72.2 Mean:   249.8 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS52(1)}        L2P N:      2 S.D.:   251.0 Max:   427.2 Min:    72.2 Mean:   249.8 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS53(1)}        L1P OUTLIER           OUTLIER_WIDELANE     59
+  {BON2(1)-GPS53(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS53(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS53(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS53(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS53(1)}        L2P OUTLIER           OUTLIER_WIDELANE     52
+  {BON2(1)-GPS53(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS53(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS53(1)}
+  {BON2(1)-GPS53(1)}        L1P N:      1 S.D.:     0.0 Max:   553.2 Min:   553.2 Mean:   553.2 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS53(1)}        L2P N:      1 S.D.:     0.0 Max:   553.2 Min:   553.2 Mean:   553.2 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS54(1)}        L1P OUTLIER           OUTLIER_WIDELANE     55
+  {BON2(1)-GPS54(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS54(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS54(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS54(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS54(1)}        L2P OUTLIER           OUTLIER_WIDELANE     55
+  {BON2(1)-GPS54(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS54(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS54(1)}
+  {BON2(1)-GPS54(1)}        L1P N:      1 S.D.:     0.0 Max:   508.0 Min:   508.0 Mean:   508.0 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS54(1)}        L2P N:      1 S.D.:     0.0 Max:   508.0 Min:   508.0 Mean:   508.0 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS55(1)}        L1P OUTLIER           OUTLIER_WIDELANE      2
+  {BON2(1)-GPS55(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS55(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS55(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS55(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS55(1)}        L2P OUTLIER           OUTLIER_WIDELANE      2
+  {BON2(1)-GPS55(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS55(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS55(1)}
+  {BON2(1)-GPS55(1)}        L1P N:      1 S.D.:     0.0 Max:   342.8 Min:   342.8 Mean:   342.8 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS55(1)}        L2P N:      1 S.D.:     0.0 Max:   342.8 Min:   342.8 Mean:   342.8 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS56(1)}        C1P TIMEGAP_EVENT        537350340.000           66030.000
+  {BON2(1)-GPS56(1)}        C2P TIMEGAP_EVENT        537350340.000           66030.000
+  {BON2(1)-GPS56(1)}        L1P No Outliers Found
+  {BON2(1)-GPS56(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS56(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS56(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS56(1)}        L1P TIMEGAP_EVENT        537350340.000           66030.000
+  {BON2(1)-GPS56(1)}        L2P No Outliers Found
+  {BON2(1)-GPS56(1)}        L2P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS56(1)}        L2P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS56(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS56(1)}        L2P TIMEGAP_EVENT        537350340.000           66030.000
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS56(1)}
+  {BON2(1)-GPS56(1)}        L1P N:      2 S.D.:   100.6 Max:   240.8 Min:    98.5 Mean:   169.6 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS56(1)}        L2P N:      2 S.D.:   100.6 Max:   240.8 Min:    98.5 Mean:   169.6 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS57(1)}        L1P OUTLIER           OUTLIER_WIDELANE      7
+  {BON2(1)-GPS57(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS57(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS57(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS57(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS57(1)}        L2P OUTLIER           OUTLIER_WIDELANE      7
+  {BON2(1)-GPS57(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS57(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS57(1)}
+  {BON2(1)-GPS57(1)}        L1P N:      1 S.D.:     0.0 Max:   347.8 Min:   347.8 Mean:   347.8 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS57(1)}        L2P N:      1 S.D.:     0.0 Max:   347.8 Min:   347.8 Mean:   347.8 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS58(1)}        C1P TIMEGAP_EVENT        537333855.000            2700.000
+  {BON2(1)-GPS58(1)}        C2P TIMEGAP_EVENT        537333855.000            2700.000
+  {BON2(1)-GPS58(1)}        L1P OUTLIER           OUTLIER_WIDELANE     44
+  {BON2(1)-GPS58(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS58(1)}        L1P NUMBER_OF_ARCS          1 contiguous          4 phasebreaks          4 phasebreaks/arc
+  {BON2(1)-GPS58(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS58(1)}        L1P PHASEBREAK              IONOSPHERE      4 
+  {BON2(1)-GPS58(1)}        L1P TIMEGAP_EVENT        537333855.000            2700.000
+  {BON2(1)-GPS58(1)}        L2P OUTLIER           OUTLIER_WIDELANE     44
+  {BON2(1)-GPS58(1)}        L2P NUMBER_OF_ARCS          1 contiguous          3 phasebreaks          3 phasebreaks/arc
+  {BON2(1)-GPS58(1)}        L2P PHASEBREAK              IONOSPHERE      4 
+  {BON2(1)-GPS58(1)}        L2P TIMEGAP_EVENT        537333855.000            2700.000
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS58(1)}
+  {BON2(1)-GPS58(1)}        L1P N:      4 S.D.:   117.4 Max:   288.0 Min:    33.8 Mean:   138.5 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS58(1)}        L2P N:      4 S.D.:   117.4 Max:   288.0 Min:    33.8 Mean:   138.5 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS59(1)}        L1P OUTLIER           OUTLIER_WIDELANE     11
+  {BON2(1)-GPS59(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS59(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS59(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS59(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS59(1)}        L2P OUTLIER           OUTLIER_WIDELANE     11
+  {BON2(1)-GPS59(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS59(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS59(1)}
+  {BON2(1)-GPS59(1)}        L1P N:      1 S.D.:     0.0 Max:   568.0 Min:   568.0 Mean:   568.0 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS59(1)}        L2P N:      1 S.D.:     0.0 Max:   568.0 Min:   568.0 Mean:   568.0 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS60(1)}        C1P TIMEGAP_EVENT        537358800.000           65280.000
+  {BON2(1)-GPS60(1)}        C2P TIMEGAP_EVENT        537358800.000           65280.000
+  {BON2(1)-GPS60(1)}        L1P OUTLIER           OUTLIER_WIDELANE     13
+  {BON2(1)-GPS60(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      6
+  {BON2(1)-GPS60(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS60(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS60(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS60(1)}        L1P TIMEGAP_EVENT        537358800.000           65280.000
+  {BON2(1)-GPS60(1)}        L2P OUTLIER           OUTLIER_WIDELANE     13
+  {BON2(1)-GPS60(1)}        L2P OUTLIER         OUTLIER_NARROWLANE      6
+  {BON2(1)-GPS60(1)}        L2P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS60(1)}        L2P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS60(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS60(1)}        L2P TIMEGAP_EVENT        537358800.000           65280.000
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS60(1)}
+  {BON2(1)-GPS60(1)}        L1P N:      2 S.D.:   106.6 Max:   250.5 Min:    99.8 Mean:   175.1 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS60(1)}        L2P N:      2 S.D.:   106.6 Max:   250.5 Min:    99.8 Mean:   175.1 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS61(1)}        L1P OUTLIER           OUTLIER_WIDELANE     43
+  {BON2(1)-GPS61(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS61(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS61(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS61(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS61(1)}        L2P OUTLIER           OUTLIER_WIDELANE     43
+  {BON2(1)-GPS61(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS61(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS61(1)}
+  {BON2(1)-GPS61(1)}        L1P N:      1 S.D.:     0.0 Max:   546.2 Min:   546.2 Mean:   546.2 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS61(1)}        L2P N:      1 S.D.:     0.0 Max:   546.2 Min:   546.2 Mean:   546.2 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS62(1)}        C1P TIMEGAP_EVENT        537334395.000            3480.000
+  {BON2(1)-GPS62(1)}        C2P TIMEGAP_EVENT        537334395.000            3480.000
+  {BON2(1)-GPS62(1)}        L1P OUTLIER           OUTLIER_WIDELANE     27
+  {BON2(1)-GPS62(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS62(1)}        L1P NUMBER_OF_ARCS          1 contiguous          3 phasebreaks          3 phasebreaks/arc
+  {BON2(1)-GPS62(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS62(1)}        L1P PHASEBREAK              IONOSPHERE      3 
+  {BON2(1)-GPS62(1)}        L1P TIMEGAP_EVENT        537334395.000            3480.000
+  {BON2(1)-GPS62(1)}        L2P OUTLIER           OUTLIER_WIDELANE     27
+  {BON2(1)-GPS62(1)}        L2P NUMBER_OF_ARCS          1 contiguous          2 phasebreaks          2 phasebreaks/arc
+  {BON2(1)-GPS62(1)}        L2P PHASEBREAK              IONOSPHERE      3 
+  {BON2(1)-GPS62(1)}        L2P TIMEGAP_EVENT        537334395.000            3480.000
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS62(1)}
+  {BON2(1)-GPS62(1)}        L1P N:      3 S.D.:   119.4 Max:   269.2 Min:    52.2 Mean:   189.5 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS62(1)}        L2P N:      3 S.D.:   119.4 Max:   269.2 Min:    52.2 Mean:   189.5 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS63(1)}        C1P TIMEGAP_EVENT        537351810.000           50385.000
+  {BON2(1)-GPS63(1)}        C1P TIMEGAP_EVENT        537360180.000            1905.000
+  {BON2(1)-GPS63(1)}        C2P TIMEGAP_EVENT        537351810.000           50385.000
+  {BON2(1)-GPS63(1)}        C2P TIMEGAP_EVENT        537360180.000            1905.000
+  {BON2(1)-GPS63(1)}        L1P OUTLIER           OUTLIER_WIDELANE     19
+  {BON2(1)-GPS63(1)}        L1P OUTLIER         OUTLIER_NARROWLANE     76
+  {BON2(1)-GPS63(1)}        L1P NUMBER_OF_ARCS          1 contiguous          3 phasebreaks          3 phasebreaks/arc
+  {BON2(1)-GPS63(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS63(1)}        L1P PHASEBREAK     NARROWLANE_RESIDUAL      1 
+  {BON2(1)-GPS63(1)}        L1P PHASEBREAK              IONOSPHERE      2 
+  {BON2(1)-GPS63(1)}        L1P TIMEGAP_EVENT        537351810.000           50385.000
+  {BON2(1)-GPS63(1)}        L1P TIMEGAP_EVENT        537360180.000            1905.000
+  {BON2(1)-GPS63(1)}        L2P OUTLIER           OUTLIER_WIDELANE     19
+  {BON2(1)-GPS63(1)}        L2P OUTLIER         OUTLIER_NARROWLANE     75
+  {BON2(1)-GPS63(1)}        L2P NUMBER_OF_ARCS          1 contiguous          2 phasebreaks          2 phasebreaks/arc
+  {BON2(1)-GPS63(1)}        L2P PHASEBREAK     NARROWLANE_RESIDUAL      1 
+  {BON2(1)-GPS63(1)}        L2P PHASEBREAK              IONOSPHERE      2 
+  {BON2(1)-GPS63(1)}        L2P TIMEGAP_EVENT        537351810.000           50385.000
+  {BON2(1)-GPS63(1)}        L2P TIMEGAP_EVENT        537360180.000            1905.000
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS63(1)}
+  {BON2(1)-GPS63(1)}        L1P N:      3 S.D.:   137.2 Max:   308.5 Min:    46.0 Mean:   154.1 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS63(1)}        L2P N:      3 S.D.:   137.2 Max:   308.5 Min:    46.0 Mean:   154.1 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS64(1)}        L1P OUTLIER           OUTLIER_WIDELANE      1
+  {BON2(1)-GPS64(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS64(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS64(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS64(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS64(1)}        L2P OUTLIER           OUTLIER_WIDELANE      1
+  {BON2(1)-GPS64(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS64(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS64(1)}
+  {BON2(1)-GPS64(1)}        L1P N:      1 S.D.:     0.0 Max:   352.5 Min:   352.5 Mean:   352.5 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS64(1)}        L2P N:      1 S.D.:     0.0 Max:   352.5 Min:   352.5 Mean:   352.5 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS65(1)}        C1P TIMEGAP_EVENT        537323220.000            3915.000
+  {BON2(1)-GPS65(1)}        C2P TIMEGAP_EVENT        537323220.000            3915.000
+  {BON2(1)-GPS65(1)}        L1P OUTLIER           OUTLIER_WIDELANE     20
+  {BON2(1)-GPS65(1)}        L1P OUTLIER         OUTLIER_NARROWLANE     13
+  {BON2(1)-GPS65(1)}        L1P NUMBER_OF_ARCS          1 contiguous          4 phasebreaks          4 phasebreaks/arc
+  {BON2(1)-GPS65(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS65(1)}        L1P PHASEBREAK     NARROWLANE_RESIDUAL      1 
+  {BON2(1)-GPS65(1)}        L1P PHASEBREAK              IONOSPHERE      3 
+  {BON2(1)-GPS65(1)}        L1P TIMEGAP_EVENT        537323220.000            3915.000
+  {BON2(1)-GPS65(1)}        L2P OUTLIER           OUTLIER_WIDELANE     20
+  {BON2(1)-GPS65(1)}        L2P OUTLIER         OUTLIER_NARROWLANE     11
+  {BON2(1)-GPS65(1)}        L2P NUMBER_OF_ARCS          1 contiguous          3 phasebreaks          3 phasebreaks/arc
+  {BON2(1)-GPS65(1)}        L2P PHASEBREAK     NARROWLANE_RESIDUAL      1 
+  {BON2(1)-GPS65(1)}        L2P PHASEBREAK              IONOSPHERE      3 
+  {BON2(1)-GPS65(1)}        L2P TIMEGAP_EVENT        537323220.000            3915.000
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS65(1)}
+  {BON2(1)-GPS65(1)}        L1P N:      4 S.D.:   142.1 Max:   336.0 Min:    33.5 Mean:   132.9 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS65(1)}        L2P N:      4 S.D.:   142.1 Max:   336.0 Min:    33.5 Mean:   132.9 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS66(1)}        C1P TIMEGAP_EVENT        537341160.000           52800.000
+  {BON2(1)-GPS66(1)}        C1P TIMEGAP_EVENT        537354840.000           12375.000
+  {BON2(1)-GPS66(1)}        C2P TIMEGAP_EVENT        537341160.000           52800.000
+  {BON2(1)-GPS66(1)}        C2P TIMEGAP_EVENT        537354840.000           12375.000
+  {BON2(1)-GPS66(1)}        L1P OUTLIER           OUTLIER_WIDELANE     69
+  {BON2(1)-GPS66(1)}        L1P OUTLIER         OUTLIER_IONOSPHERE     32
+  {BON2(1)-GPS66(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS66(1)}        L1P NUMBER_OF_ARCS          1 contiguous          2 phasebreaks          2 phasebreaks/arc
+  {BON2(1)-GPS66(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS66(1)}        L1P PHASEBREAK              IONOSPHERE      2 
+  {BON2(1)-GPS66(1)}        L1P TIMEGAP_EVENT        537341160.000           52800.000
+  {BON2(1)-GPS66(1)}        L1P TIMEGAP_EVENT        537354840.000           12375.000
+  {BON2(1)-GPS66(1)}        L2P OUTLIER           OUTLIER_WIDELANE     66
+  {BON2(1)-GPS66(1)}        L2P OUTLIER         OUTLIER_IONOSPHERE     32
+  {BON2(1)-GPS66(1)}        L2P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS66(1)}        L2P NUMBER_OF_ARCS          1 contiguous          2 phasebreaks          2 phasebreaks/arc
+  {BON2(1)-GPS66(1)}        L2P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS66(1)}        L2P PHASEBREAK              IONOSPHERE      2 
+  {BON2(1)-GPS66(1)}        L2P TIMEGAP_EVENT        537341160.000           52800.000
+  {BON2(1)-GPS66(1)}        L2P TIMEGAP_EVENT        537354840.000           12375.000
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS66(1)}
+  {BON2(1)-GPS66(1)}        L1P N:      3 S.D.:    80.0 Max:   166.0 Min:    21.8 Mean:   113.9 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS66(1)}        L2P N:      3 S.D.:    80.0 Max:   166.0 Min:    21.8 Mean:   113.9 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS67(1)}        L1P OUTLIER           OUTLIER_WIDELANE      8
+  {BON2(1)-GPS67(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS67(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS67(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS67(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS67(1)}        L2P OUTLIER           OUTLIER_WIDELANE      8
+  {BON2(1)-GPS67(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS67(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS67(1)}
+  {BON2(1)-GPS67(1)}        L1P N:      1 S.D.:     0.0 Max:   496.0 Min:   496.0 Mean:   496.0 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS67(1)}        L2P N:      1 S.D.:     0.0 Max:   496.0 Min:   496.0 Mean:   496.0 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS68(1)}        C1P TIMEGAP_EVENT        537302010.000            3180.000
+  {BON2(1)-GPS68(1)}        C1P TIMEGAP_EVENT        537305775.000            1425.000
+  {BON2(1)-GPS68(1)}        C2P TIMEGAP_EVENT        537302010.000            3180.000
+  {BON2(1)-GPS68(1)}        C2P TIMEGAP_EVENT        537305775.000            1425.000
+  {BON2(1)-GPS68(1)}        L1P OUTLIER           OUTLIER_WIDELANE    135
+  {BON2(1)-GPS68(1)}        L1P OUTLIER         OUTLIER_IONOSPHERE     79
+  {BON2(1)-GPS68(1)}        L1P OUTLIER         OUTLIER_NARROWLANE     16
+  {BON2(1)-GPS68(1)}        L1P NUMBER_OF_ARCS          2 contiguous          2 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS68(1)}        L1P PHASEBREAK                 TIMEGAP      2 
+  {BON2(1)-GPS68(1)}        L1P PHASEBREAK              IONOSPHERE      2 
+  {BON2(1)-GPS68(1)}        L1P TIMEGAP_EVENT        537302010.000            3180.000
+  {BON2(1)-GPS68(1)}        L1P TIMEGAP_EVENT        537305775.000            1425.000
+  {BON2(1)-GPS68(1)}        L2P OUTLIER           OUTLIER_WIDELANE    118
+  {BON2(1)-GPS68(1)}        L2P OUTLIER         OUTLIER_IONOSPHERE     78
+  {BON2(1)-GPS68(1)}        L2P OUTLIER         OUTLIER_NARROWLANE     14
+  {BON2(1)-GPS68(1)}        L2P NUMBER_OF_ARCS          1 contiguous          2 phasebreaks          2 phasebreaks/arc
+  {BON2(1)-GPS68(1)}        L2P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS68(1)}        L2P PHASEBREAK              IONOSPHERE      2 
+  {BON2(1)-GPS68(1)}        L2P TIMEGAP_EVENT        537302010.000            3180.000
+  {BON2(1)-GPS68(1)}        L2P TIMEGAP_EVENT        537305775.000            1425.000
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS68(1)}
+  {BON2(1)-GPS68(1)}        L1P N:      2 S.D.:   142.1 Max:   336.8 Min:   135.8 Mean:   236.2 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS68(1)}        L2P N:      2 S.D.:   142.1 Max:   336.8 Min:   135.8 Mean:   236.2 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS69(1)}        C1P TIMEGAP_EVENT        537291195.000            2670.000
+  {BON2(1)-GPS69(1)}        C1P TIMEGAP_EVENT        537354195.000           49080.000
+  {BON2(1)-GPS69(1)}        C2P TIMEGAP_EVENT        537291195.000            2670.000
+  {BON2(1)-GPS69(1)}        C2P TIMEGAP_EVENT        537354195.000           49080.000
+  {BON2(1)-GPS69(1)}        L1P OUTLIER           OUTLIER_WIDELANE     37
+  {BON2(1)-GPS69(1)}        L1P OUTLIER         OUTLIER_IONOSPHERE     70
+  {BON2(1)-GPS69(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS69(1)}        L1P NUMBER_OF_ARCS          1 contiguous          4 phasebreaks          4 phasebreaks/arc
+  {BON2(1)-GPS69(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS69(1)}        L1P PHASEBREAK              IONOSPHERE      4 
+  {BON2(1)-GPS69(1)}        L1P TIMEGAP_EVENT        537291195.000            2670.000
+  {BON2(1)-GPS69(1)}        L1P TIMEGAP_EVENT        537354195.000           49080.000
+  {BON2(1)-GPS69(1)}        L2P OUTLIER           OUTLIER_WIDELANE     35
+  {BON2(1)-GPS69(1)}        L2P OUTLIER         OUTLIER_IONOSPHERE     68
+  {BON2(1)-GPS69(1)}        L2P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS69(1)}        L2P NUMBER_OF_ARCS          1 contiguous          4 phasebreaks          4 phasebreaks/arc
+  {BON2(1)-GPS69(1)}        L2P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS69(1)}        L2P PHASEBREAK              IONOSPHERE      4 
+  {BON2(1)-GPS69(1)}        L2P TIMEGAP_EVENT        537291195.000            2670.000
+  {BON2(1)-GPS69(1)}        L2P TIMEGAP_EVENT        537354195.000           49080.000
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS69(1)}
+  {BON2(1)-GPS69(1)}        L1P N:      5 S.D.:    90.3 Max:   232.0 Min:    24.8 Mean:   110.3 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS69(1)}        L2P N:      5 S.D.:    90.3 Max:   232.0 Min:    24.8 Mean:   110.3 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS70(1)}        C1P TIMEGAP_EVENT        537330435.000           52035.000
+  {BON2(1)-GPS70(1)}        C2P TIMEGAP_EVENT        537330435.000           52035.000
+  {BON2(1)-GPS70(1)}        L1P OUTLIER           OUTLIER_WIDELANE     46
+  {BON2(1)-GPS70(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS70(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS70(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS70(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS70(1)}        L1P TIMEGAP_EVENT        537330435.000           52035.000
+  {BON2(1)-GPS70(1)}        L2P OUTLIER           OUTLIER_WIDELANE     43
+  {BON2(1)-GPS70(1)}        L2P OUTLIER         OUTLIER_NARROWLANE      1
+  {BON2(1)-GPS70(1)}        L2P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS70(1)}        L2P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS70(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS70(1)}        L2P TIMEGAP_EVENT        537330435.000           52035.000
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS70(1)}
+  {BON2(1)-GPS70(1)}        L1P N:      1 S.D.:     0.0 Max:   550.0 Min:   550.0 Mean:   550.0 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS70(1)}        L2P N:      1 S.D.:     0.0 Max:   550.0 Min:   550.0 Mean:   550.0 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS71(1)}        C1P TIMEGAP_EVENT        537346695.000           66525.000
+  {BON2(1)-GPS71(1)}        C2P TIMEGAP_EVENT        537346695.000           66525.000
+  {BON2(1)-GPS71(1)}        L1P OUTLIER           OUTLIER_WIDELANE     16
+  {BON2(1)-GPS71(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS71(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS71(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS71(1)}        L1P TIMEGAP_EVENT        537346695.000           66525.000
+  {BON2(1)-GPS71(1)}        L2P OUTLIER           OUTLIER_WIDELANE     16
+  {BON2(1)-GPS71(1)}        L2P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS71(1)}        L2P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS71(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS71(1)}        L2P TIMEGAP_EVENT        537346695.000           66525.000
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS71(1)}
+  {BON2(1)-GPS71(1)}        L1P N:      2 S.D.:   192.3 Max:   301.5 Min:    29.5 Mean:   165.5 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS71(1)}        L2P N:      2 S.D.:   192.3 Max:   301.5 Min:    29.5 Mean:   165.5 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS72(1)}        C1P TIMEGAP_EVENT        537360690.000           66465.000
+  {BON2(1)-GPS72(1)}        C2P TIMEGAP_EVENT        537360690.000           66465.000
+  {BON2(1)-GPS72(1)}        L1P OUTLIER           OUTLIER_WIDELANE      1
+  {BON2(1)-GPS72(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS72(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS72(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS72(1)}        L1P TIMEGAP_EVENT        537360690.000           66465.000
+  {BON2(1)-GPS72(1)}        L2P OUTLIER           OUTLIER_WIDELANE      1
+  {BON2(1)-GPS72(1)}        L2P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS72(1)}        L2P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS72(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS72(1)}        L2P TIMEGAP_EVENT        537360690.000           66465.000
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS72(1)}
+  {BON2(1)-GPS72(1)}        L1P N:      2 S.D.:   138.2 Max:   263.8 Min:    68.2 Mean:   166.0 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS72(1)}        L2P N:      2 S.D.:   138.2 Max:   263.8 Min:    68.2 Mean:   166.0 Arcs (<    20.0 min) :      0
+
+-
+  {BON2(1)-GPS73(1)}        C1P TIMEGAP_EVENT        537333210.000            3465.000
+  {BON2(1)-GPS73(1)}        C2P TIMEGAP_EVENT        537333210.000            3465.000
+  {BON2(1)-GPS73(1)}        L1P OUTLIER           OUTLIER_WIDELANE      8
+  {BON2(1)-GPS73(1)}        L1P OUTLIER         OUTLIER_IONOSPHERE     41
+  {BON2(1)-GPS73(1)}        L1P OUTLIER         OUTLIER_NARROWLANE      3
+  {BON2(1)-GPS73(1)}        L1P NUMBER_OF_ARCS          1 contiguous          1 phasebreaks          1 phasebreaks/arc
+  {BON2(1)-GPS73(1)}        L1P PHASEBREAK                 TIMEGAP      1 
+  {BON2(1)-GPS73(1)}        L1P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS73(1)}        L1P TIMEGAP_EVENT        537333210.000            3465.000
+  {BON2(1)-GPS73(1)}        L2P OUTLIER           OUTLIER_WIDELANE      8
+  {BON2(1)-GPS73(1)}        L2P OUTLIER         OUTLIER_IONOSPHERE     41
+  {BON2(1)-GPS73(1)}        L2P OUTLIER         OUTLIER_NARROWLANE      2
+  {BON2(1)-GPS73(1)}        L2P NUMBER_OF_ARCS          1 contiguous          0 phasebreaks          0 phasebreaks/arc
+  {BON2(1)-GPS73(1)}        L2P PHASEBREAK              IONOSPHERE      1 
+  {BON2(1)-GPS73(1)}        L2P TIMEGAP_EVENT        537333210.000            3465.000
+
+Printing the arc statistics (count, mean length, ...) for signal path {BON2(1)-GPS73(1)}
+  {BON2(1)-GPS73(1)}        L1P N:      1 S.D.:     0.0 Max:   422.5 Min:   422.5 Mean:   422.5 Arcs (<    20.0 min) :      0
+  {BON2(1)-GPS73(1)}        L2P N:      1 S.D.:     0.0 Max:   422.5 Min:   422.5 Mean:   422.5 Arcs (<    20.0 min) :      0
+
+-
+
+-------------------------------------------------------------
+Aggregated Arc summary (for all satellites)
+BON2 L1P N:     57 S.D.:   171.1 Max:   568.0 Min:    21.8 Mean:   244.3 Arcs (<    20.0 min) :      0
+BON2 L2P N:     57 S.D.:   171.1 Max:   568.0 Min:    21.8 Mean:   244.3 Arcs (<    20.0 min) :      0
+

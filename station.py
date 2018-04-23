@@ -61,10 +61,11 @@ class Station(object):
         import subprocess
 
         global ionfile
-
+        print('Process %s'%(self.name))
         logging.basicConfig(filename='xProcess.log',level=logging.DEBUG)
         #get all files in directory *data*
         files = glob.glob(self.data)
+        print('Number of Found FIles :',len(files))
         logging.info('Rinex Files to be processed:\n')
 	[logging.info(str(f)+'\n') for f in files]
 	dt=0

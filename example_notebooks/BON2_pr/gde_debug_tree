@@ -1,0 +1,55 @@
+Global                                             # .Global
+  ClockPrep Off                                    # .Global.ClockPrep
+  Debug                                            # .Global.Debug
+    PostProcess gde.debug 0                        # .Global.Debug.PostProcess
+  Input                                            # .Global.Input
+    Type File                                      # .Global.Input.Type
+      Format rinex                                 # .Global.Input.Type.Format
+      Name /home/nvoss/tools/xProcess/xProcess/example_notebooks/BON2/2017/BON20100.17d.Z # .Global.Input.Type.Name
+  Mode PostProcess                                 # .Global.Mode
+  Output                                           # .Global.Output
+    Type File                                      # .Global.Output.Type
+      Format datarecord                            # .Global.Output.Type.Format
+      Name dataRecordFile.gz                       # .Global.Output.Type.Name
+      OutputLCPC Yes                               # .Global.Output.Type.OutputLCPC
+  P1-C1 On                                         # .Global.P1-C1
+    Strict No                                      # .Global.P1-C1.Strict
+  Statistics                                       # .Global.Statistics
+    ArcMinLength 20                                # .Global.Statistics.ArcMinLength
+    Interval 30                                    # .Global.Statistics.Interval
+    Output gde.stats 2                             # .Global.Statistics.Output
+PostProcess                                        # .PostProcess
+  CodeType ALL                                     # .PostProcess.CodeType
+  DecimateSmooth On                                # .PostProcess.DecimateSmooth
+    Interval 300                                   # .PostProcess.DecimateSmooth.Interval
+    Tolerance 1e-11                                # .PostProcess.DecimateSmooth.Tolerance
+  PreEdit                                          # .PostProcess.PreEdit
+    MaxPhase On                                    # .PostProcess.PreEdit.MaxPhase
+      Value 1.5e16                                 # .PostProcess.PreEdit.MaxPhase.Value
+    PreRange On                                    # .PostProcess.PreEdit.PreRange
+      Max 6.0e7                                    # .PostProcess.PreEdit.PreRange.Max
+      Min 1.5e7                                    # .PostProcess.PreEdit.PreRange.Min
+  SanityCheck On                                   # .PostProcess.SanityCheck
+    SanMinPt 10                                    # .PostProcess.SanityCheck.SanMinPt
+    SanNinja On                                    # .PostProcess.SanityCheck.SanNinja
+    SanOutage 300                                  # .PostProcess.SanityCheck.SanOutage
+    SanRMS -0.12                                   # .PostProcess.SanityCheck.SanRMS
+  ShortArc                                         # .PostProcess.ShortArc
+    MinPnts On                                     # .PostProcess.ShortArc.MinPnts
+      Value 3                                      # .PostProcess.ShortArc.MinPnts.Value
+    MinSpan On                                     # .PostProcess.ShortArc.MinSpan
+      Value 1200.0                                 # .PostProcess.ShortArc.MinSpan.Value
+  TurboEdit On                                     # .PostProcess.TurboEdit
+    IonoMaxGap 1800                                # .PostProcess.TurboEdit.IonoMaxGap
+    IonoMaxPoly 10                                 # .PostProcess.TurboEdit.IonoMaxPoly
+    IonoNPerOrder 100                              # .PostProcess.TurboEdit.IonoNPerOrder
+    IonoResJump 15                                 # .PostProcess.TurboEdit.IonoResJump
+    NwSigma 4                                      # .PostProcess.TurboEdit.NwSigma
+    WideLaneNinja On                               # .PostProcess.TurboEdit.WideLaneNinja
+Self                                               # .Self
+  File gde_debug_tree                              # .Self.File
+  Metadata Off                                     # .Self.Metadata
+Stations                                           # .Stations
+  BON2                                             # .Stations.BON2
+    Latitude 9.764573169163242                     # .Stations.BON2.Latitude
+    ReceiverType 2                                 # .Stations.BON2.ReceiverType

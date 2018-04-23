@@ -1,0 +1,9 @@
+#!/bin/sh
+gd2e.py \
+      -runType=PPP \
+      -treeSequenceDir Trees \
+      -rnxFile /home/nvoss/xProcess/example_notebooks/CABA/2017/CABA0710.17d.Z \
+      -nProcessors=4 \
+      -gdCov \
+      -GNSSproducts /home/nvoss/orbits/sideshow.jpl.nasa.gov/pub/JPL_GPS_Products/Final  \
+      >gd2e.log 2>gd2e.err

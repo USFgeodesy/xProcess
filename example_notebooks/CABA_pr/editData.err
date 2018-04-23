@@ -1,0 +1,11 @@
+W::0::GDE configuration::required data types have not been specified
+E::0::OK     ::Loaded configuration file : /home/nvoss/xProcess/example_notebooks/CABA_pr/gde.tree
+E::1000011::Reader Event::Read ConstellationInfo file /home/nvoss/tools/gipsyx/goa-var/etc/ConstellationInfo
+E::1000011::Reader Event::Read ConstellationInfo file /home/nvoss/tools/gipsyx/goa-var/etc/ConstellationInfo
+E::0::MeasGatherRinex::Receiver name set to: CABA
+E::0::OK     ::Start processing Rinex file : /home/nvoss/xProcess/example_notebooks/CABA/2017/CABA0600.17d.Z
+E::0::OK     ::Output DataRecord Format file : dataRecordFile.gz
+W::0::WARNING::InputTree: Problem locating path ".Global.P1-C1.File". Assuming default : $GOA_VAR/etc/gnss.dcb
+E::0::OK     ::Loading DCB file /home/nvoss/tools/gipsyx/goa-var/etc/gnss.dcb
+E::0::OK     ::Successfuly loaded DCB file /home/nvoss/tools/gipsyx/goa-var/etc/gnss.dcb
+E::0::OK     ::DCB mode is not strict. If DCB value is not found for a satellite or station, no DCB will be applied.
