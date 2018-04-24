@@ -25,7 +25,7 @@ import numpy as np
 from timeseries import TimeSeries
 
 ionfile = '/home/nvoss/goa-var/cddis.gsfc.nasa.gov/gps/products/ionex'
-
+orbits_dir = '/home/nvoss/orbits/sideshow.jpl.nasa.gov/pub/JPL_GPS_Products/Final'
 class Station(object):
     """
     From the StationXML definition:
@@ -50,7 +50,7 @@ class Station(object):
         plot a map of the station
         '''
         return
-    def process(self,tree=None,start_date=None,end_date=None):
+    def process(self,tree=None,start_date=None,end_date=None,ncores=4):
         '''
         Process each day between start date and end date if it exists.
         tree is a tree object
@@ -61,11 +61,12 @@ class Station(object):
         import subprocess
 
         global ionfile
+        global orbits_dir
         print('Process %s'%(self.name))
         logging.basicConfig(filename='xProcess.log',level=logging.DEBUG)
         #get all files in directory *data*
         files = glob.glob(self.data)
-        print('Number of Found FIles :',len(files))
+        print('Number of Found Files :',len(files))
         logging.info('Rinex Files to be processed:\n')
 	[logging.info(str(f)+'\n') for f in files]
 	dt=0
@@ -96,9 +97,9 @@ class Station(object):
                     replace('Trees/Nick_0.tree',"IONEXFILE ==",'IONEXFILE == %s'%(ionFile))
                     #process
                     if tree is None:
-                        os.system('gd2e.py -runType=PPP -rnxFile %s -gdCov -nProcessors=4 -GNSSproducts /home/nvoss/orbits/sideshow.jpl.nasa.gov/pub/JPL_GPS_Products/Final'%(f))
+                        os.system('gd2e.py -runType=PPP -rnxFile %s -gdCov -nProcessors=%s -GNSSproducts %s'%(f,ncors,orbits_dir))
                     else:
-                        os.system('gd2e.py -runType=PPP -treeS Trees -rnxFile %s -nProcessors=4 -gdCov -GNSSproducts /home/nvoss/orbits/sideshow.jpl.nasa.gov/pub/JPL_GPS_Products/Final'%(f))
+                        os.system('gd2e.py -runType=PPP -treeS Trees -rnxFile %s -nProcessors=%s -gdCov -GNSSproducts %s'%(f,ncores,orbits_dir))
                     os.system('cp smoothFinal.gdcov %s.gdcov'%(date[:-1]))
                     os.system('mkdir %s_ran%s'%(self.name,year))
                     os.system('mkdir %s_ran%s/%s'%(self.name,year,day))
