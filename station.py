@@ -24,8 +24,8 @@ import sys
 import numpy as np
 from timeseries import TimeSeries
 
-ionfile = '/home/nvoss/goa-var/cddis.gsfc.nasa.gov/gps/products/ionex'
-orbits_dir = '/home/nvoss/orbits/sideshow.jpl.nasa.gov/pub/JPL_GPS_Products/Final'
+ionfile = '/home/ROCCO/roccom/GPS_files/IONEX'
+orbits_dir = '/home/ROCCO/roccom/GPS_files/JPLproduct/orbits/Final'
 class Station(object):
     """
     From the StationXML definition:
@@ -68,15 +68,15 @@ class Station(object):
         files = glob.glob(self.data)
         print('Number of Found Files :',len(files))
         logging.info('Rinex Files to be processed:\n')
-	[logging.info(str(f)+'\n') for f in files]
-	dt=0
+        [logging.info(str(f)+'\n') for f in files]
+        dt=0
         for f in files:
             #figure out what day it is
             #? read the rinex file check if day is already in TS?
             #process each day
             logging.info('Starting '+f)
             year = f.split('/')[-1][9:11]
-	    if int(year)<50:
+            if int(year)<50:
                 year = str(int(year)+2000)
             else:
                 year = str(int(year)+1900)
@@ -107,16 +107,13 @@ class Station(object):
                     os.system('cp *.tree.err0_0 %s_ran%s/%s'%(self.name,year,day))
                     os.system('cp *.tree.log0_0 %s_ran%s/%s'%(self.name,year,day))
                     logging.debug('Saved tree and logs to file')
-		    dt = date[:-1]
-		    os.system('netSeries.py -r %s.gdcov -i *.gdcov'%(dt))
+                    dt = date[:-1]
+                    os.system('netSeries.py -r %s.gdcov -i *.gdcov'%(dt))
             else:
                 logging.warning('File outside date range not processed')
-        #if dt!=0:
-	#	os.system('netSeries.py -r %s.gdcov -i *.gdcov'%(dt))
-
 def splitline(line):
-  index,sta,time,position,unc = line.split(' ')
-  return int(time),float(position),float(unc)
+    index,sta,time,position,unc = line.split(' ')
+    return int(time),float(position),float(unc)
 
 def replace(fil,inp,output):
     for line in fileinput.input(fil,inplace=True):

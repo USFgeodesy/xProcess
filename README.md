@@ -2,14 +2,15 @@
 code for processing using GipsyX
 ## To install it:
 
-cd /dir/with/xProcess/
+```cd /dir/with/xProcess/```
 
 open the file station.py
 
 edit line 27-28:
-
+```
 ionfile    = '/home/nvoss/goa-var/cddis.gsfc.nasa.gov/gps/products/ionex'
 orbits_dir = '/home/nvoss/orbits/sideshow.jpl.nasa.gov/pub/JPL_GPS_Products/Final'
+```
 such that it points to the directory where your ionex files and orbits are are...
 
 ```python setup.py install```
